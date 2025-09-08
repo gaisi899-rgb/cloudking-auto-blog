@@ -5,3 +5,4 @@ Setup:
 3) Secret `OPENAI_API_KEY` setzen
 4) Optional: `DEINE-DOMAIN` in `robots.txt` & `scripts/build_sitemap.py` ersetzen
 5) Actions → Workflow manuell starten
+6) deploy trigger
