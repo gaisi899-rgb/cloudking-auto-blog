@@ -10,6 +10,21 @@
         "Automation",
         "Hosting"
       ]
+    },
+    {
+      "title": "So richtest du automatisierte Backups für WordPress ein (in 10 Minuten)",
+      "url": "posts/2025-09-09-so-richtest-du-automatisierte-backups-fuer-wordpress-ein-in-10-minuten.html",
+      "date": "2025-09-09",
+      "excerpt": "Erfahre, wie du in nur 10 Minuten automatisierte Backups für deine WordPress-Website einrichtest, um Datenverlust zu vermeiden.",
+      "tags": [
+        "WordPress",
+        "Backups",
+        "Websicherheit",
+        "Automatisierung",
+        "Website-Management",
+        "Einsteiger",
+        "Fortgeschrittene"
+      ]
     }
   ]
 }
