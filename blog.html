@@ -15,32 +15,12 @@
     <a class="btn secondary" href="blog.html">Blog</a>
     <a class="btn" href="mailto:info@handwerker-whv.de">Kontakt</a>
   </div>
-</nav><section class="card"><h1>Blog</h1><p>Neue Beiträge erscheinen automatisch jeden Montag, Mittwoch und Freitag.</p>
-<input id="search" placeholder="Suche nach Titel/Tags…" style="width:100%;padding:12px;border-radius:12px;border:1px solid #1c2743;background:#0e1628;color:#cfe0ff;margin-top:10px"/></section>
-<section id="posts" class="grid" style="margin-top:16px"></section>
-<script>
-async function loadPosts(){
-  const res = await fetch('posts/index.json', {cache:'no-store'});
-  const data = await res.json();
-  const q = new URLSearchParams(location.search).get('q')?.toLowerCase() || '';
-  const el = document.getElementById('posts'); el.innerHTML='';
-  data.posts
-    .filter(p => !q || p.title.toLowerCase().includes(q) || (p.tags||[]).join(',').toLowerCase().includes(q))
-    .sort((a,b)=> new Date(b.date)-new Date(a.date))
-    .forEach(p => {
-      const d = new Date(p.date);
-      const a = document.createElement('a'); a.href = p.url; a.className='post-item';
-      a.innerHTML = `<div><h3>${p.title}</h3><p>${p.excerpt}</p><div class='badge'>${(p.tags||[]).slice(0,3).join(' • ')}</div></div><time>${d.toLocaleDateString('de-DE')}</time>`;
-      el.appendChild(a);
-    });
-  const inp = document.getElementById('search'); inp.value=q||''; inp.addEventListener('input', e=>{
-    const val=e.target.value.trim(); const url=new URL(location.href);
-    if(val) url.searchParams.set('q', val); else url.searchParams.delete('q');
-    history.replaceState({},'',url); loadPosts();
-  }, {once:true});
-}
-loadPosts();
-</script><footer><hr/><div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap">
+</nav><section class="card"><h1>Blog</h1><p>Neue Beiträge erscheinen automatisch jeden Montag, Mittwoch und Freitag.</p></section>
+<section class="grid">
+<!-- BLOG_LIST_START -->
+<p>Liste wird beim nächsten Lauf erzeugt.</p>
+<!-- BLOG_LIST_END -->
+</section><footer><hr/><div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap">
 <div>© <span id="year"></span> CloudKing • Hosting &amp; Cloud Tipps</div>
 <div><a href="impressum.html">Impressum</a> • <a href="datenschutz.html">Datenschutz</a></div></div>
 <script>document.getElementById('year').textContent=new Date().getFullYear()</script></footer></div></body></html>
