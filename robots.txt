@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://DEINE-DOMAIN/sitemap.xml
+Sitemap: https://gaisi899-rgb.github.io/cloudking-auto-blog/sitemap.xml

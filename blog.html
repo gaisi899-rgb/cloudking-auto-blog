@@ -1,34 +1,46 @@
 <!doctype html><html lang="de"><head>
 <meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>CloudKing Blog – 3× wöchentlich neue Artikel</title><meta name="description" content="CloudKing Blog: News, Anleitungen & Vergleiche zu Hosting, Cloud & VPN."/>
-<link rel="canonical" href="/blog.html"/><link rel="icon" href="/favicon.ico"/>
-<link rel="stylesheet" href="/assets/style.css"/>
+<link rel="canonical" href="blog.html"/>
+<link rel="icon" href="favicon.ico"/>
+<link rel="stylesheet" href="assets/style.css"/>
 <meta property="og:title" content="CloudKing Blog – 3× wöchentlich neue Artikel"/><meta property="og:description" content="CloudKing Blog: News, Anleitungen & Vergleiche zu Hosting, Cloud & VPN."/>
-<meta property="og:type" content="website"/><meta property="og:url" content="/blog.html"/>
-<meta property="og:image" content="/assets/og-default.svg"/><meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:title" content="CloudKing Blog – 3× wöchentlich neue Artikel"/><meta name="twitter:description" content="CloudKing Blog: News, Anleitungen & Vergleiche zu Hosting, Cloud & VPN."/>
+<meta property="og:type" content="website"/><meta property="og:url" content="blog.html"/>
+<meta property="og:image" content="assets/og-default.svg"/>
+<meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="CloudKing Blog – 3× wöchentlich neue Artikel"/>
+<meta name="twitter:description" content="CloudKing Blog: News, Anleitungen & Vergleiche zu Hosting, Cloud & VPN."/>
 </head><body><div class="container"><nav class="nav">
-<a class="logo" href="/"><span class="badge">Cloud</span>King</a>
-<div style="display:flex;gap:10px"><a class="btn secondary" href="/blog.html">Blog</a><a class="btn" href="mailto:info@handwerker-whv.de">Kontakt</a></div>
+  <a class="logo" href="index.html"><span class="badge">Cloud</span>King</a>
+  <div style="display:flex;gap:10px">
+    <a class="btn secondary" href="blog.html">Blog</a>
+    <a class="btn" href="mailto:info@handwerker-whv.de">Kontakt</a>
+  </div>
 </nav><section class="card"><h1>Blog</h1><p>Neue Beiträge erscheinen automatisch jeden Montag, Mittwoch und Freitag.</p>
 <input id="search" placeholder="Suche nach Titel/Tags…" style="width:100%;padding:12px;border-radius:12px;border:1px solid #1c2743;background:#0e1628;color:#cfe0ff;margin-top:10px"/></section>
 <section id="posts" class="grid" style="margin-top:16px"></section>
 <script>
 async function loadPosts(){
-  const res = await fetch('/posts/index.json',{cache:'no-store'}); const data = await res.json();
-  const q = new URLSearchParams(location.search).get('q')?.toLowerCase()||''; const el = document.getElementById('posts'); el.innerHTML='';
-  data.posts.filter(p=>!q||p.title.toLowerCase().includes(q)||(p.tags||[]).join(',').toLowerCase().includes(q))
-    .sort((a,b)=> new Date(b.date)-new Date(a.date)).forEach(p=>{
-      const d = new Date(p.date); const a=document.createElement('a'); a.href=p.url; a.className='post-item';
-      a.innerHTML=`<div><h3>${p.title}</h3><p>${p.excerpt}</p><div class='badge'>${(p.tags||[]).slice(0,3).join(' • ')}</div></div><time>${d.toLocaleDateString('de-DE')}</time>`;
+  const res = await fetch('posts/index.json', {cache:'no-store'});
+  const data = await res.json();
+  const q = new URLSearchParams(location.search).get('q')?.toLowerCase() || '';
+  const el = document.getElementById('posts'); el.innerHTML='';
+  data.posts
+    .filter(p => !q || p.title.toLowerCase().includes(q) || (p.tags||[]).join(',').toLowerCase().includes(q))
+    .sort((a,b)=> new Date(b.date)-new Date(a.date))
+    .forEach(p => {
+      const d = new Date(p.date);
+      const a = document.createElement('a'); a.href = p.url; a.className='post-item';
+      a.innerHTML = `<div><h3>${p.title}</h3><p>${p.excerpt}</p><div class='badge'>${(p.tags||[]).slice(0,3).join(' • ')}</div></div><time>${d.toLocaleDateString('de-DE')}</time>`;
       el.appendChild(a);
     });
-  const inp=document.getElementById('search'); inp.value=q||''; inp.addEventListener('input',e=>{
-    const val=e.target.value.trim(); const url=new URL(location.href); if(val) url.searchParams.set('q',val); else url.searchParams.delete('q'); history.replaceState({},'',url); loadPosts();
-  },{once:true});
+  const inp = document.getElementById('search'); inp.value=q||''; inp.addEventListener('input', e=>{
+    const val=e.target.value.trim(); const url=new URL(location.href);
+    if(val) url.searchParams.set('q', val); else url.searchParams.delete('q');
+    history.replaceState({},'',url); loadPosts();
+  }, {once:true});
 }
 loadPosts();
 </script><footer><hr/><div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap">
 <div>© <span id="year"></span> CloudKing • Hosting &amp; Cloud Tipps</div>
-<div><a href="/impressum.html">Impressum</a> • <a href="/datenschutz.html">Datenschutz</a></div></div>
+<div><a href="impressum.html">Impressum</a> • <a href="datenschutz.html">Datenschutz</a></div></div>
 <script>document.getElementById('year').textContent=new Date().getFullYear()</script></footer></div></body></html>

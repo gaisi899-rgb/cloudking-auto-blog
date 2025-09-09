@@ -36,7 +36,7 @@ def pick_title():
   today = datetime.date.today(); return topics[(today.isocalendar().week + today.day) % len(topics)]
 def generate_article(title):
   system = "Du bist ein deutscher Tech-Redakteur. Schreibe präzise, nützlich und sachlich."
-  user = f"""Bitte verfasse einen deutschsprachigen Blogartikel als reines HTML (nur <article>…</article>) zum Thema:
+  user = f\"\"\"Bitte verfasse einen deutschsprachigen Blogartikel als reines HTML (nur <article>…</article>) zum Thema:
 Titel: {title}
 Regeln:
 - Zielgruppe: Einsteiger bis Fortgeschrittene Website-Betreiber.
@@ -45,27 +45,27 @@ Regeln:
 - SEO: natürliche Keywords rund um Hosting/Cloud/Webseite/VPN, nicht übertreiben.
 - Länge: 900–1200 Wörter.
 - Zusätzlich 1–2-Satz Meta-Beschreibung (plain text) und 5–8 Tags.
-Antworte als JSON mit: {{"title":"...","meta":"...","tags":["..."],"html":"<article>…</article>"}}"""
+Antworte als JSON mit: {{\"title\":\"...\",\"meta\":\"...\",\"tags\":[\"...\"],\"html\":\"<article>…</article>\"}}\"\"\"
   resp = client.chat.completions.create(model="gpt-4o-mini", messages=[{"role":"system","content":system},{"role":"user","content":user}], temperature=0.7)
   content = resp.choices[0].message.content
-  m = re.search(r"\{.*\}\s*$", content, re.S)
+  m = re.search(r\"\\{.*\\}\\s*$\", content, re.S)
   if not m: raise RuntimeError("Antwort enthielt kein JSON")
   return json.loads(m.group(0))
 def build_html_page(title, meta, html_body, tags, canonical):
   meta_short = (meta[:152] + "…") if len(meta)>155 else meta
-  head = f"""<!doctype html><html lang='de'><head><meta charset='utf-8'/>
+  head = f\"\"\"<!doctype html><html lang='de'><head><meta charset='utf-8'/>
 <meta name='viewport' content='width=device-width, initial-scale=1'/>
 <title>{title}</title><meta name='description' content='{meta_short}'/>
-<link rel='canonical' href='{canonical}'/><link rel='icon' href='/favicon.ico'/>
-<link rel='stylesheet' href='/assets/style.css'/>
+<link rel='canonical' href='{canonical}'/><link rel='icon' href='../favicon.ico'/>
+<link rel='stylesheet' href='../assets/style.css'/>
 <meta property='og:title' content='{title}'/><meta property='og:description' content='{meta_short}'/>
 <meta property='og:type' content='article'/><meta property='og:url' content='{canonical}'/>
-<meta property='og:image' content='/assets/og-default.svg'/>
+<meta property='og:image' content='../assets/og-default.svg'/>
 <meta name='twitter:card' content='summary_large_image'/><meta name='twitter:title' content='{title}'/>
 <meta name='twitter:description' content='{meta_short}'/></head><body><div class='container'>
-<nav class='nav'><a class='logo' href='/'><span class='badge'>Cloud</span>King</a>
-<div style='display:flex;gap:10px'><a class='btn secondary' href='/blog.html'>Blog</a><a class='btn' href='mailto:info@handwerker-whv.de'>Kontakt</a></div></nav><article class='card'>"""
-  foot = """</article><footer><hr/><div style='display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap'><div>© <span id='year'></span> CloudKing • Hosting &amp; Cloud Tipps</div><div><a href='/impressum.html'>Impressum</a> • <a href='/datenschutz.html'>Datenschutz</a></div></div><script>document.getElementById('year').textContent=new Date().getFullYear()</script></footer></div></body></html>"""
+<nav class='nav'><a class='logo' href='../index.html'><span class='badge'>Cloud</span>King</a>
+<div style='display:flex;gap:10px'><a class='btn secondary' href='../blog.html'>Blog</a><a class='btn' href='mailto:info@handwerker-whv.de'>Kontakt</a></div></nav><article class='card'>\"\"\"
+  foot = \"\"\"</article><footer><hr/><div style='display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap'><div>© <span id='year'></span> CloudKing • Hosting &amp; Cloud Tipps</div><div><a href='../impressum.html'>Impressum</a> • <a href='../datenschutz.html'>Datenschutz</a></div></div><script>document.getElementById('year').textContent=new Date().getFullYear()</script></footer></div></body></html>\"\"\"
   return head + html_body + foot
 def pick_related(all_posts, current_title, current_tags, limit=3):
   cur=set([t.lower() for t in (current_tags or [])]); scored=[]
@@ -85,19 +85,18 @@ def main():
   meta = (data.get("meta","") or "").strip(); tags = data.get("tags",[]); html_body = data.get("html","")
   related = pick_related(idx.get("posts",[]), data.get("title", title), tags)
   if related:
-    links = "".join([f"<li><a href='{p['url']}'>{p['title']}</a></li>" for p in related])
+    links = "".join([f"<li><a href='../{p['url']}'>{p['title']}</a></li>" for p in related])
     html_body += f"<hr/><h2>Weiterlesen</h2><ul class='list'>{links}</ul>"
-  canonical = f"/posts/{filename}"
+  canonical = f"posts/{filename}"
   full_html = build_html_page(data.get("title", title), meta, html_body, tags, canonical)
   path.write_text(full_html, encoding="utf-8")
-  entry = {"title": data.get("title", title), "url": f"/posts/{filename}", "date": today, "excerpt": (meta[:152] + "…") if len(meta)>155 else meta, "tags": tags}
+  entry = {"title": data.get("title", title), "url": f"posts/{filename}", "date": today, "excerpt": (meta[:152] + "…") if len(meta)>155 else meta, "tags": tags}
   idx["posts"] = [p for p in idx.get("posts",[]) if p["url"] != entry["url"]]; idx["posts"].append(entry)
   idx["posts"] = sorted(idx["posts"], key=lambda p: p["date"])[-500:]; save_index(idx)
-  build_list = "\n".join([f"<a class='post-item' href='{p['url']}'><div><h3>{p['title']}</h3><p>{p['excerpt']}</p><div class='badge'>{' • '.join((p.get('tags') or [])[:3])}</div></div><time>{p['date']}</time></a>" for p in sorted(idx['posts'], key=lambda p:p['date'], reverse=True)])
-  blog_template_top = (ROOT / "blog.html").read_text(encoding="utf-8").split('<section id="posts" class="grid" style="margin-top:16px"></section>')[0]
-  blog_template_bottom = "</section>" + (ROOT / "blog.html").read_text(encoding="utf-8").split('</section>')[-1]
-  new_blog = blog_template_top + "<section id='posts' class='grid' style='margin-top:16px'>" + build_list + blog_template_bottom
+  # Rebuild blog list for no-JS
+  build_list = "\\n".join([f"<a class='post-item' href='{p['url']}'><div><h3>{p['title']}</h3><p>{p['excerpt']}</p><div class='badge'>{' • '.join((p.get('tags') or [])[:3])}</div></div><time>{p['date']}</time></a>" for p in sorted(idx['posts'], key=lambda p:p['date'], reverse=True)])
+  blog_html = (ROOT / "blog.html").read_text(encoding="utf-8")
+  new_blog = blog_html.replace("<section id=\"posts\" class=\"grid\" style=\"margin-top:16px\"></section>", f"<section id='posts' class='grid' style='margin-top:16px'>{build_list}</section>")
   (ROOT / "blog.html").write_text(new_blog, encoding="utf-8")
   print(f"Generated: {path}")
-if __name__ == "__main__":
-  main()
+if __name__ == "__main__": main()
