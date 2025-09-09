@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+e#!/usr/bin/env python3
 import os, json, re, random, datetime, pathlib, sys
 from openai import OpenAI
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
@@ -35,8 +35,8 @@ def save_index(idx):
 def pick_title():
   today = datetime.date.today(); return topics[(today.isocalendar().week + today.day) % len(topics)]
 def generate_article(title):
-  system = "Du bist ein deutscher Tech-Redakteur. Schreibe präzise, nützlich und sachlich."
-  user = f\"\"\"Bitte verfasse einen deutschsprachigen Blogartikel als reines HTML (nur <article>…</article>) zum Thema:
+    system = "Du bist ein deutscher Tech-Redakteur. Schreibe präzise, nützlich und sachlich."
+    user = f"""Bitte verfasse einen deutschsprachigen Blogartikel als reines HTML (nur <article>…</article>) zum Thema:
 Titel: {title}
 Regeln:
 - Zielgruppe: Einsteiger bis Fortgeschrittene Website-Betreiber.
@@ -45,7 +45,7 @@ Regeln:
 - SEO: natürliche Keywords rund um Hosting/Cloud/Webseite/VPN, nicht übertreiben.
 - Länge: 900–1200 Wörter.
 - Zusätzlich 1–2-Satz Meta-Beschreibung (plain text) und 5–8 Tags.
-Antworte als JSON mit: {{\"title\":\"...\",\"meta\":\"...\",\"tags\":[\"...\"],\"html\":\"<article>…</article>\"}}\"\"\"
+Antworte als JSON mit: {{"title":"...","meta":"...","tags":["..."],"html":"<article>…</article>"}}"""
   resp = client.chat.completions.create(model="gpt-4o-mini", messages=[{"role":"system","content":system},{"role":"user","content":user}], temperature=0.7)
   content = resp.choices[0].message.content
   m = re.search(r\"\\{.*\\}\\s*$\", content, re.S)
