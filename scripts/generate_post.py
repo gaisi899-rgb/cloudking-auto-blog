@@ -138,24 +138,53 @@ def main():
         filename = f"{today}-{slug}-{datetime.datetime.now().strftime('%H%M')}.html"
         path = POSTS_DIR / filename
 
-    data = generate_article(title)
-    meta = (data.get("meta","") or "").strip()
-    tags = data.get("tags",[])
-    html_body = data.get("html","")
-    cover_url = build_cover_svg(data.get("title", title), slug)
+    def _as_str(x):
+    if isinstance(x, str):
+        return x
+    try:
+        # hübsch serialisieren, ohne ASCII-Escape
+        return json.dumps(x, ensure_ascii=False)
+    except Exception:
+        return str(x)
+
+# meta
+meta_raw = data.get("meta", "")
+meta = _as_str(meta_raw).strip()
+
+# tags (immer Liste aus Strings)
+tags_raw = data.get("tags", [])
+if not isinstance(tags_raw, (list, tuple)):
+    tags_raw = [tags_raw]
+tags = [str(t) for t in tags_raw if t is not None]
+
+# html body (manchmal liefert die API ein Objekt)
+html_raw = data.get("html", "")
+if isinstance(html_raw, str):
+    html_body = html_raw
+elif isinstance(html_raw, dict):
+    # häufig steckt der eigentliche HTML-String unter einem Schlüssel
+    html_body = html_raw.get("html") or html_raw.get("content") or _as_str(html_raw)
+else:
+    html_body = _as_str(html_raw)
+# --- Ende Normalisierung ---
+
+cover_url = build_cover_svg(data.get("title", title), slug)
+canonical = f"posts/{filename}"
+full_html = build_html_page(data.get("title", title), meta, html_body, tags, canonical, cover_url)
+path.write_text(full_html, encoding="utf-8")
 
     canonical = f"posts/{filename}"
     full_html = build_html_page(data.get("title", title), meta, html_body, tags, canonical, cover_url)
     path.write_text(full_html, encoding="utf-8")
 
     entry = {
-        "title": data.get("title", title),
-        "url": f"posts/{filename}",
-        "date": today,
-        "excerpt": (meta[:152] + "…") if len(meta)>155 else meta,
-        "tags": tags,
-        "cover": cover_url
-    }
+    "title": data.get("title", title),
+    "url": f"posts/{filename}",
+    "date": today,
+    "excerpt": (meta[:152] + "…") if isinstance(meta, str) and len(meta) > 155 else meta,
+    "tags": tags,
+    "cover": cover_url,
+}
     idx["posts"] = [p for p in idx.get("posts",[]) if p["url"] != entry["url"]]
     idx["posts"].append(entry)
     idx["posts"] = sorted(idx["posts"], key=lambda p: p["date"])[-500:]
