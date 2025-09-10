@@ -25,6 +25,21 @@
         "Sicherheit"
       ],
       "cover": "assets/covers/wordpress-backups-automatisieren-in-10-minuten.svg"
+    },
+    {
+      "title": "CDN erklärt: Bilder und Assets schnell ausliefern",
+      "url": "posts/2025-09-10-cdn-erklaert-bilder-und-assets-schnell-ausliefern.html",
+      "date": "2025-09-10",
+      "excerpt": "{\"description\": \"Erfahren Sie, wie Content Delivery Networks (CDNs) die Auslieferung von Bildern und digitalen Assets optimieren und die Ladezeiten von Webseiten verbessern.\", \"keywords\": \"CDN, Content Delivery Network, Bilder, Assets, Webperformance, Ladezeiten, Optimierung\"}",
+      "tags": [
+        "CDN",
+        "Webentwicklung",
+        "Performance",
+        "Bilder",
+        "Assets",
+        "Ladezeiten"
+      ],
+      "cover": "assets/covers/cdn-erklaert-bilder-und-assets-schnell-ausliefern.svg"
     }
   ]
 }
