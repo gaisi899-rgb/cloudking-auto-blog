@@ -40,6 +40,21 @@
         "Ladezeiten"
       ],
       "cover": "assets/covers/cdn-erklaert-bilder-und-assets-schnell-ausliefern.svg"
+    },
+    {
+      "title": "Website-Umzug: Zero-Downtime-Migration Schritt für Schritt",
+      "url": "posts/2025-09-12-website-umzug-zero-downtime-migration-schritt-fuer-schritt.html",
+      "date": "2025-09-12",
+      "excerpt": "{\"description\": \"Erfahren Sie, wie Sie Ihre Website mit einer Zero-Downtime-Migration sicher und effizient umziehen können. Schritt-für-Schritt-Anleitung und Best Practices.\", \"keywords\": \"Website-Umzug, Zero-Downtime-Migration, Schritt für Schritt, Webhosting, Datenmigration\"}",
+      "tags": [
+        "Website-Umzug",
+        "Zero-Downtime",
+        "Migration",
+        "Webhosting",
+        "Datenmigration",
+        "IT-Management"
+      ],
+      "cover": "assets/covers/website-umzug-zero-downtime-migration-schritt-fuer-schritt.svg"
     }
   ]
 }
