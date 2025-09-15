@@ -55,6 +55,20 @@
         "IT-Management"
       ],
       "cover": "assets/covers/website-umzug-zero-downtime-migration-schritt-fuer-schritt.svg"
+    },
+    {
+      "title": "VPN: Nutzen, Grenzen und worauf achten",
+      "url": "posts/2025-09-15-vpn-nutzen-grenzen-und-worauf-achten.html",
+      "date": "2025-09-15",
+      "excerpt": "{\"description\": \"Ein umfassender Leitfaden zu VPNs, ihrer Nutzung, den bestehenden Grenzen und wichtigen Aspekten, die bei der Auswahl eines VPN-Anbieters beachtet werden sollten.\", \"keywords\": \"VPN, Virtual Private Network, Datenschutz, Internet Sicherheit, Anonymität\"}",
+      "tags": [
+        "VPN",
+        "Datenschutz",
+        "Internet Sicherheit",
+        "Anonymität",
+        "Netzwerksicherheit"
+      ],
+      "cover": "assets/covers/vpn-nutzen-grenzen-und-worauf-achten.svg"
     }
   ]
 }
