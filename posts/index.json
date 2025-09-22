@@ -97,6 +97,20 @@
         "Headless CMS"
       ],
       "cover": "assets/covers/static-vs-headless-cms.svg"
+    },
+    {
+      "title": "WordPress Backups automatisieren in 10 Minuten",
+      "url": "posts/2025-09-22-wordpress-backups-automatisieren-in-10-minuten.html",
+      "date": "2025-09-22",
+      "excerpt": "{\"description\": \"Erfahren Sie, wie Sie in nur 10 Minuten automatische Backups für Ihre WordPress-Website einrichten können, um Datenverlust zu vermeiden.\", \"keywords\": \"WordPress, Backups, automatisieren, Datenverlust, Website-Sicherung\"}",
+      "tags": [
+        "WordPress",
+        "Backups",
+        "Automatisierung",
+        "Website-Sicherung",
+        "Datenmanagement"
+      ],
+      "cover": "assets/covers/wordpress-backups-automatisieren-in-10-minuten.svg"
     }
   ]
 }
