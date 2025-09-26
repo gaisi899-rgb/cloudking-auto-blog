@@ -125,6 +125,20 @@
         "Datensicherheit"
       ],
       "cover": "assets/covers/e-mail-hosting-mailserver-vs-anbieter-vor-und-nachteile.svg"
+    },
+    {
+      "title": "Performance-Basics: Caching verstehen",
+      "url": "posts/2025-09-26-performance-basics-caching-verstehen.html",
+      "date": "2025-09-26",
+      "excerpt": "{\"description\": \"Ein umfassender Überblick über die Grundlagen des Cachings zur Verbesserung der Performance von Webanwendungen.\", \"author\": \"Max Mustermann\", \"date\": \"2023-10-01\"}",
+      "tags": [
+        "Caching",
+        "Performance",
+        "Webentwicklung",
+        "Optimierung",
+        "Technologie"
+      ],
+      "cover": "assets/covers/performance-basics-caching-verstehen.svg"
     }
   ]
 }
