@@ -139,6 +139,20 @@
         "Technologie"
       ],
       "cover": "assets/covers/performance-basics-caching-verstehen.svg"
+    },
+    {
+      "title": "Monitoring & Uptime: Tools für kleine Sites",
+      "url": "posts/2025-09-29-monitoring-uptime-tools-fuer-kleine-sites.html",
+      "date": "2025-09-29",
+      "excerpt": "{\"description\": \"Eine Übersicht über effektive Monitoring- und Uptime-Tools für kleine Websites, die helfen, die Verfügbarkeit und Leistung zu überwachen.\", \"author\": \"Tech-Redakteur\", \"date\": \"2023-10-01\"}",
+      "tags": [
+        "Monitoring",
+        "Uptime",
+        "Tools",
+        "Websites",
+        "Kleine Sites"
+      ],
+      "cover": "assets/covers/monitoring-uptime-tools-fuer-kleine-sites.svg"
     }
   ]
 }
