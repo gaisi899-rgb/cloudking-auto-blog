@@ -168,6 +168,20 @@
         "Sicherheit"
       ],
       "cover": "assets/covers/e-mail-zustellbarkeit-spf-dkim-dmarc.svg"
+    },
+    {
+      "title": "Failover & Redundanz: Große Wirkung",
+      "url": "posts/2025-10-03-failover-redundanz-grosse-wirkung.html",
+      "date": "2025-10-03",
+      "excerpt": "{\"description\": \"Erfahren Sie, wie Failover- und Redundanzstrategien die Verfügbarkeit von Systemen erhöhen und Ausfallzeiten minimieren.\", \"author\": \"Tech-Redakteur\", \"date\": \"2023-10-01\"}",
+      "tags": [
+        "Failover",
+        "Redundanz",
+        "IT-Sicherheit",
+        "Verfügbarkeit",
+        "Systemarchitektur"
+      ],
+      "cover": "assets/covers/failover-redundanz-grosse-wirkung.svg"
     }
   ]
 }
