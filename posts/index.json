@@ -182,6 +182,20 @@
         "Systemarchitektur"
       ],
       "cover": "assets/covers/failover-redundanz-grosse-wirkung.svg"
+    },
+    {
+      "title": "CDN erklärt: Bilder und Assets schnell ausliefern",
+      "url": "posts/2025-10-06-cdn-erklaert-bilder-und-assets-schnell-ausliefern.html",
+      "date": "2025-10-06",
+      "excerpt": "{\"description\": \"Erfahren Sie, wie Content Delivery Networks (CDNs) die Auslieferung von Bildern und anderen Assets beschleunigen und die Benutzererfahrung verbessern.\", \"keywords\": \"CDN, Content Delivery Network, Bilder, Assets, Auslieferung, Webperformance\"}",
+      "tags": [
+        "CDN",
+        "Webperformance",
+        "Bilder",
+        "Assets",
+        "Technologie"
+      ],
+      "cover": "assets/covers/cdn-erklaert-bilder-und-assets-schnell-ausliefern.svg"
     }
   ]
 }
