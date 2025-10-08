@@ -196,6 +196,21 @@
         "Technologie"
       ],
       "cover": "assets/covers/cdn-erklaert-bilder-und-assets-schnell-ausliefern.svg"
+    },
+    {
+      "title": "Website-Umzug: Zero-Downtime-Migration Schritt für Schritt",
+      "url": "posts/2025-10-08-website-umzug-zero-downtime-migration-schritt-fuer-schritt.html",
+      "date": "2025-10-08",
+      "excerpt": "{\"description\": \"Erfahren Sie, wie Sie Ihre Website ohne Ausfallzeiten erfolgreich migrieren. Schritt-für-Schritt-Anleitung für eine reibungslose Zero-Downtime-Migration.\", \"keywords\": \"Website-Umzug, Zero-Downtime-Migration, Schritt-für-Schritt, Webhosting, Migration\"}",
+      "tags": [
+        "Website-Umzug",
+        "Migration",
+        "Zero-Downtime",
+        "Webhosting",
+        "Technik",
+        "Anleitung"
+      ],
+      "cover": "assets/covers/website-umzug-zero-downtime-migration-schritt-fuer-schritt.svg"
     }
   ]
 }
