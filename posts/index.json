@@ -253,6 +253,20 @@
         "Content-Management"
       ],
       "cover": "assets/covers/static-vs-headless-cms.svg"
+    },
+    {
+      "title": "Datenbanken: MySQL vs. PostgreSQL",
+      "url": "posts/2025-10-17-datenbanken-mysql-vs-postgresql.html",
+      "date": "2025-10-17",
+      "excerpt": "{\"description\": \"Ein Vergleich zwischen MySQL und PostgreSQL hinsichtlich Leistung, Skalierbarkeit und Funktionalität.\", \"keywords\": \"Datenbanken, MySQL, PostgreSQL, Vergleich, Leistung, Skalierbarkeit\"}",
+      "tags": [
+        "Datenbanken",
+        "MySQL",
+        "PostgreSQL",
+        "Technologie",
+        "Vergleich"
+      ],
+      "cover": "assets/covers/datenbanken-mysql-vs-postgresql.svg"
     }
   ]
 }
