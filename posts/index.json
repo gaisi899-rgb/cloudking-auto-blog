@@ -267,6 +267,20 @@
         "Vergleich"
       ],
       "cover": "assets/covers/datenbanken-mysql-vs-postgresql.svg"
+    },
+    {
+      "title": "E-Mail-Hosting: Mailserver vs. Anbieter - Vor- und Nachteile",
+      "url": "posts/2025-10-20-e-mail-hosting-mailserver-vs-anbieter-vor-und-nachteile.html",
+      "date": "2025-10-20",
+      "excerpt": "{\"description\": \"Vergleich zwischen selbstgehosteten Mailservern und externen E-Mail-Anbietern. Vor- und Nachteile im Überblick.\", \"keywords\": \"E-Mail-Hosting, Mailserver, E-Mail-Anbieter, Vor- und Nachteile, E-Mail-Dienste\"}",
+      "tags": [
+        "E-Mail-Hosting",
+        "Mailserver",
+        "E-Mail-Anbieter",
+        "IT-Sicherheit",
+        "Cloud-Dienste"
+      ],
+      "cover": "assets/covers/e-mail-hosting-mailserver-vs-anbieter-vor-und-nachteile.svg"
     }
   ]
 }
