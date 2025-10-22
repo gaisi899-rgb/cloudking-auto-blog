@@ -281,6 +281,20 @@
         "Cloud-Dienste"
       ],
       "cover": "assets/covers/e-mail-hosting-mailserver-vs-anbieter-vor-und-nachteile.svg"
+    },
+    {
+      "title": "Performance-Basics: Caching verstehen",
+      "url": "posts/2025-10-22-performance-basics-caching-verstehen.html",
+      "date": "2025-10-22",
+      "excerpt": "{\"description\": \"Ein umfassender Überblick über das Konzept des Cachings, seine Arten und wie es die Performance von Anwendungen verbessern kann.\", \"keywords\": \"Caching, Performance, Webentwicklung, Datenbank, HTTP-Caching, Browser-Caching\"}",
+      "tags": [
+        "Caching",
+        "Performance",
+        "Webentwicklung",
+        "Optimierung",
+        "Datenbank"
+      ],
+      "cover": "assets/covers/performance-basics-caching-verstehen.svg"
     }
   ]
 }
