@@ -295,6 +295,20 @@
         "Datenbank"
       ],
       "cover": "assets/covers/performance-basics-caching-verstehen.svg"
+    },
+    {
+      "title": "Domains clever wählen: SEO und Endungen",
+      "url": "posts/2025-10-24-domains-clever-waehlen-seo-und-endungen.html",
+      "date": "2025-10-24",
+      "excerpt": "{\"description\": \"Erfahren Sie, wie Sie eine Domain wählen, die Ihre SEO-Strategie unterstützt und welche Domain-Endungen für Ihr Unternehmen am besten geeignet sind.\", \"keywords\": \"Domainwahl, SEO, Domain-Endungen, Online-Marketing, Webseiten\"}",
+      "tags": [
+        "Domainwahl",
+        "SEO",
+        "Domain-Endungen",
+        "Online-Marketing",
+        "Webseiten"
+      ],
+      "cover": "assets/covers/domains-clever-waehlen-seo-und-endungen.svg"
     }
   ]
 }
