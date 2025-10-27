@@ -309,6 +309,22 @@
         "Webseiten"
       ],
       "cover": "assets/covers/domains-clever-waehlen-seo-und-endungen.svg"
+    },
+    {
+      "title": "E-Mail-Zustellbarkeit: SPF, DKIM, DMARC",
+      "url": "posts/2025-10-27-e-mail-zustellbarkeit-spf-dkim-dmarc.html",
+      "date": "2025-10-27",
+      "excerpt": "{\"description\": \"Ein umfassender Leitfaden zur Verbesserung der E-Mail-Zustellbarkeit durch die Implementierung von SPF, DKIM und DMARC.\", \"keywords\": \"E-Mail, Zustellbarkeit, SPF, DKIM, DMARC, E-Mail-Sicherheit, Authentifizierung\"}",
+      "tags": [
+        "E-Mail",
+        "Zustellbarkeit",
+        "SPF",
+        "DKIM",
+        "DMARC",
+        "Sicherheit",
+        "Authentifizierung"
+      ],
+      "cover": "assets/covers/e-mail-zustellbarkeit-spf-dkim-dmarc.svg"
     }
   ]
 }

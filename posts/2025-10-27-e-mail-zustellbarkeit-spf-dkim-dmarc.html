@@ -1,0 +1,32 @@
+<!doctype html><html lang='de'><head><meta charset='utf-8'/>
+<meta name='viewport' content='width=device-width, initial-scale=1'/>
+<title>E-Mail-Zustellbarkeit: SPF, DKIM, DMARC</title><meta name='description' content='{"description": "Ein umfassender Leitfaden zur Verbesserung der E-Mail-Zustellbarkeit durch die Implementierung von SPF, DKIM und DMARC.", "keywords": "…'/>
+<link rel='canonical' href='posts/2025-10-27-e-mail-zustellbarkeit-spf-dkim-dmarc.html'/><link rel='stylesheet' href='../assets/style.css'/></head>
+<body><div class='container'>
+<nav class='nav'><a class='logo' href='../index.html'><span class='badge'>Cloud</span>King</a>
+<div><a class='btn secondary' href='../blog.html'>Blog</a><a class='btn' href='mailto:info@handwerker-whv.de'>Kontakt</a></div></nav>
+<article class='card'>
+<figure><img src='../assets/covers/e-mail-zustellbarkeit-spf-dkim-dmarc.svg' alt='E-Mail-Zustellbarkeit: SPF, DKIM, DMARC' loading='lazy'/></figure><article>
+  <h1>E-Mail-Zustellbarkeit: SPF, DKIM, DMARC</h1>
+  <p>Die Zustellbarkeit von E-Mails ist ein entscheidender Faktor für den Erfolg von E-Mail-Marketing und Kommunikation. Eine hohe Zustellrate sorgt dafür, dass Ihre Nachrichten die Empfänger erreichen und nicht im Spam-Ordner landen.</p>
+  <h2>Was sind SPF, DKIM und DMARC?</h2>
+  <p>SPF (Sender Policy Framework), DKIM (DomainKeys Identified Mail) und DMARC (Domain-based Message Authentication, Reporting, and Conformance) sind Authentifizierungsprotokolle, die dazu beitragen, die Identität des Absenders zu überprüfen und die Sicherheit von E-Mail-Nachrichten zu erhöhen.</p>
+  <h3>SPF</h3>
+  <p>SPF ist ein Mechanismus, der es Domainbesitzern ermöglicht, eine Liste autorisierter E-Mail-Server zu erstellen, die E-Mails im Namen ihrer Domain senden dürfen. Durch die Überprüfung des SPF-Eintrags können empfangende Mailserver feststellen, ob eine eingehende E-Mail von einem autorisierten Server stammt.</p>
+  <h3>DKIM</h3>
+  <p>DKIM fügt E-Mails eine digitale Signatur hinzu, die von einem privaten Schlüssel erzeugt wird. Der empfangende Server kann diese Signatur mit dem öffentlichen Schlüssel überprüfen, der im DNS der Absenderdomain veröffentlicht ist. Dies gewährleistet die Integrität und Authentizität der Nachricht.</p>
+  <h3>DMARC</h3>
+  <p>DMARC baut auf SPF und DKIM auf und ermöglicht Domainbesitzern, Richtlinien festzulegen, wie empfangende Mailserver mit nicht authentifizierten E-Mails umgehen sollen. DMARC bietet auch Reporting-Funktionen, die es ermöglichen, Probleme bei der Zustellbarkeit zu identifizieren und zu beheben.</p>
+  <h2>Implementierung von SPF, DKIM und DMARC</h2>
+  <p>Um die E-Mail-Zustellbarkeit zu verbessern, sollten Unternehmen die folgenden Schritte unternehmen:</p>
+  <ol>
+    <li>SPF-Eintrag im DNS hinzufügen.</li>
+    <li>DKIM für die Domain aktivieren.</li>
+    <li>DMARC-Richtlinie erstellen und im DNS veröffentlichen.</li>
+  </ol>
+  <h2>Fazit</h2>
+  <p>Die Implementierung von SPF, DKIM und DMARC ist unerlässlich, um die Zustellbarkeit von E-Mails zu verbessern und die Sicherheit zu erhöhen. Durch die richtige Konfiguration dieser Protokolle können Unternehmen das Risiko von Spam und Phishing reduzieren und das Vertrauen der Empfänger gewinnen.</p>
+</article></article>
+<footer><hr/><div>© <span id='year'></span> CloudKing • Hosting & Cloud Tipps</div>
+<script>document.getElementById('year').textContent=new Date().getFullYear()</script></footer>
+</div></body></html>
