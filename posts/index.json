@@ -352,6 +352,20 @@
         "Tarifvergleich"
       ],
       "cover": "assets/covers/shared-hosting-vs-vps-vs-cloud-welcher-tarif-passt-fuer-wen.svg"
+    },
+    {
+      "title": "E-Mail-Hosting: Mailserver vs. Anbieter - Vor- und Nachteile",
+      "url": "posts/2025-11-03-e-mail-hosting-mailserver-vs-anbieter-vor-und-nachteile.html",
+      "date": "2025-11-03",
+      "excerpt": "{\"description\": \"Ein Überblick über die Vor- und Nachteile von selbstgehosteten Mailservern im Vergleich zu E-Mail-Anbietern.\", \"keywords\": \"E-Mail-Hosting, Mailserver, E-Mail-Anbieter, Vor- und Nachteile, selbstgehostet\"}",
+      "tags": [
+        "E-Mail-Hosting",
+        "Mailserver",
+        "E-Mail-Anbieter",
+        "IT-Infrastruktur",
+        "Cloud-Dienste"
+      ],
+      "cover": "assets/covers/e-mail-hosting-mailserver-vs-anbieter-vor-und-nachteile.svg"
     }
   ]
 }
