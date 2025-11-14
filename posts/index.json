@@ -424,6 +424,20 @@
         "Systemadministration"
       ],
       "cover": "assets/covers/failover-redundanz-grosse-wirkung.svg"
+    },
+    {
+      "title": "Shared Hosting vs. VPS vs. Cloud - Welcher Tarif passt für wen?",
+      "url": "posts/2025-11-14-shared-hosting-vs-vps-vs-cloud-welcher-tarif-passt-fuer-wen.html",
+      "date": "2025-11-14",
+      "excerpt": "Ein Vergleich der verschiedenen Hosting-Optionen, um die beste Wahl für unterschiedliche Bedürfnisse zu treffen.",
+      "tags": [
+        "Shared Hosting",
+        "VPS",
+        "Cloud Hosting",
+        "Webhosting",
+        "Hosting-Tarife"
+      ],
+      "cover": "assets/covers/shared-hosting-vs-vps-vs-cloud-welcher-tarif-passt-fuer-wen.svg"
     }
   ]
 }
