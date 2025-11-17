@@ -438,6 +438,20 @@
         "Hosting-Tarife"
       ],
       "cover": "assets/covers/shared-hosting-vs-vps-vs-cloud-welcher-tarif-passt-fuer-wen.svg"
+    },
+    {
+      "title": "Website-Umzug: Zero-Downtime-Migration Schritt für Schritt",
+      "url": "posts/2025-11-17-website-umzug-zero-downtime-migration-schritt-fuer-schritt.html",
+      "date": "2025-11-17",
+      "excerpt": "{\"description\": \"Erfahren Sie, wie Sie Ihre Website mit einer Zero-Downtime-Migration ohne Unterbrechungen umziehen können. Schritt-für-Schritt-Anleitung.\", \"keywords\": \"Website-Umzug, Zero-Downtime-Migration, Migration, Webentwicklung, Tipps\"}",
+      "tags": [
+        "Website-Umzug",
+        "Migration",
+        "Zero-Downtime",
+        "Webentwicklung",
+        "Hosting"
+      ],
+      "cover": "assets/covers/website-umzug-zero-downtime-migration-schritt-fuer-schritt.svg"
     }
   ]
 }
