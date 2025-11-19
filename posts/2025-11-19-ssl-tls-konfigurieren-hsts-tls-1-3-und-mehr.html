@@ -1,0 +1,37 @@
+<!doctype html><html lang='de'><head><meta charset='utf-8'/>
+<meta name='viewport' content='width=device-width, initial-scale=1'/>
+<title>SSL/TLS konfigurieren - HSTS, TLS 1.3 und mehr</title><meta name='description' content='{"description": "Eine umfassende Anleitung zur Konfiguration von SSL/TLS mit Fokus auf HSTS, TLS 1.3 und weiteren Sicherheitsmaßnahmen.", "keywords": "S…'/>
+<link rel='canonical' href='posts/2025-11-19-ssl-tls-konfigurieren-hsts-tls-1-3-und-mehr.html'/><link rel='stylesheet' href='../assets/style.css'/></head>
+<body><div class='container'>
+<nav class='nav'><a class='logo' href='../index.html'><span class='badge'>Cloud</span>King</a>
+<div><a class='btn secondary' href='../blog.html'>Blog</a><a class='btn' href='mailto:info@handwerker-whv.de'>Kontakt</a></div></nav>
+<article class='card'>
+<figure><img src='../assets/covers/ssl-tls-konfigurieren-hsts-tls-1-3-und-mehr.svg' alt='SSL/TLS konfigurieren - HSTS, TLS 1.3 und mehr' loading='lazy'/></figure><article>
+  <h1>SSL/TLS konfigurieren - HSTS, TLS 1.3 und mehr</h1>
+  <p>Die sichere Kommunikation im Internet ist ein wesentlicher Bestandteil der Websicherheit. Die Konfiguration von SSL (Secure Sockets Layer) und TLS (Transport Layer Security) ist entscheidend, um Daten während der Übertragung zu schützen.</p>
+
+  <h2>Was ist SSL/TLS?</h2>
+  <p>SSL und TLS sind kryptografische Protokolle, die für die sichere Übertragung von Daten über ein Netzwerk entwickelt wurden. TLS ist der Nachfolger von SSL und bietet verbesserte Sicherheitsfunktionen.</p>
+
+  <h2>HSTS (HTTP Strict Transport Security)</h2>
+  <p>HSTS ist ein Web-Sicherheitsmechanismus, der Webbrowser anweist, nur über HTTPS mit der Website zu kommunizieren. Dies verhindert Man-in-the-Middle-Angriffe und schützt die Integrität der Daten.</p>
+  <pre><code>Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"</code></pre>
+
+  <h2>Aktivierung von TLS 1.3</h2>
+  <p>TLS 1.3 ist die neueste Version des Protokolls und bietet verbesserte Leistung und Sicherheit. Um TLS 1.3 zu aktivieren, müssen Server und Clients das Protokoll unterstützen.</p>
+  <pre><code>ssl_protocols TLSv1.2 TLSv1.3;</code></pre>
+
+  <h2>Weitere Sicherheitsmaßnahmen</h2>
+  <p>Neben der Aktivierung von HSTS und TLS 1.3 sollten auch weitere Sicherheitsmaßnahmen in Betracht gezogen werden:</p>
+  <ul>
+    <li>Verwendung eines starken Verschlüsselungszertifikats</li>
+    <li>Regelmäßige Updates der Server-Software</li>
+    <li>Implementierung von Content Security Policy (CSP)</li>
+  </ul>
+
+  <h2>Fazit</h2>
+  <p>Die richtige Konfiguration von SSL/TLS ist entscheidend für die Sicherheit Ihrer Website. Durch die Implementierung von HSTS und die Aktivierung von TLS 1.3 können Sie die Sicherheit Ihrer Nutzer erheblich erhöhen.</p>
+</article></article>
+<footer><hr/><div>© <span id='year'></span> CloudKing • Hosting & Cloud Tipps</div>
+<script>document.getElementById('year').textContent=new Date().getFullYear()</script></footer>
+</div></body></html>
