@@ -468,6 +468,20 @@
         "HTTPS"
       ],
       "cover": "assets/covers/ssl-tls-konfigurieren-hsts-tls-1-3-und-mehr.svg"
+    },
+    {
+      "title": "VPN: Nutzen, Grenzen und worauf achten",
+      "url": "posts/2025-11-21-vpn-nutzen-grenzen-und-worauf-achten.html",
+      "date": "2025-11-21",
+      "excerpt": "{\"description\": \"Ein umfassender Leitfaden zu VPNs, der deren Nutzen, Grenzen und wichtige Aspekte bei der Auswahl eines Anbieters behandelt.\", \"keywords\": \"VPN, Virtual Private Network, Datenschutz, Sicherheit, Internet, Anbieter\"}",
+      "tags": [
+        "VPN",
+        "Datenschutz",
+        "Internet-Sicherheit",
+        "Anbieter",
+        "Technologie"
+      ],
+      "cover": "assets/covers/vpn-nutzen-grenzen-und-worauf-achten.svg"
     }
   ]
 }
