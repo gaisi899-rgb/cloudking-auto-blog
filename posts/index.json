@@ -482,6 +482,20 @@
         "Technologie"
       ],
       "cover": "assets/covers/vpn-nutzen-grenzen-und-worauf-achten.svg"
+    },
+    {
+      "title": "Static vs. Headless CMS: Ein Vergleich",
+      "url": "posts/2025-11-24-static-vs-headless-cms.html",
+      "date": "2025-11-24",
+      "excerpt": "{\"description\": \"Ein umfassender Vergleich zwischen Static und Headless CMS, deren Vor- und Nachteile sowie Anwendungsfälle.\", \"keywords\": \"Static CMS, Headless CMS, Vergleich, Content Management Systeme, Webentwicklung\"}",
+      "tags": [
+        "CMS",
+        "Webentwicklung",
+        "Content Management",
+        "Technologie",
+        "Digitalisierung"
+      ],
+      "cover": "assets/covers/static-vs-headless-cms.svg"
     }
   ]
 }

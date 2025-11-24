@@ -2,25 +2,25 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
   <url>
     <loc>https://gaisi899-rgb.github.io/cloudking-auto-blog/</loc>
-    <lastmod>2025-11-21</lastmod>
+    <lastmod>2025-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://gaisi899-rgb.github.io/cloudking-auto-blog/blog.html</loc>
-    <lastmod>2025-11-21</lastmod>
+    <lastmod>2025-11-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://gaisi899-rgb.github.io/cloudking-auto-blog/impressum.html</loc>
-    <lastmod>2025-11-21</lastmod>
+    <lastmod>2025-11-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://gaisi899-rgb.github.io/cloudking-auto-blog/datenschutz.html</loc>
-    <lastmod>2025-11-21</lastmod>
+    <lastmod>2025-11-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -225,6 +225,12 @@
   <url>
     <loc>https://gaisi899-rgb.github.io/cloudking-auto-blog/posts/2025-11-21-vpn-nutzen-grenzen-und-worauf-achten.html</loc>
     <lastmod>2025-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaisi899-rgb.github.io/cloudking-auto-blog/posts/2025-11-24-static-vs-headless-cms.html</loc>
+    <lastmod>2025-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
