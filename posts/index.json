@@ -496,6 +496,20 @@
         "Digitalisierung"
       ],
       "cover": "assets/covers/static-vs-headless-cms.svg"
+    },
+    {
+      "title": "MySQL vs. PostgreSQL: Ein Vergleich der beiden führenden Datenbanken",
+      "url": "posts/2025-11-26-datenbanken-mysql-vs-postgresql.html",
+      "date": "2025-11-26",
+      "excerpt": "{\"description\": \"Ein detaillierter Vergleich zwischen MySQL und PostgreSQL, zwei der beliebtesten relationalen Datenbanken, hinsichtlich Performance, Features und Anwendungsfällen.\", \"keywords\": \"MySQL, PostgreSQL, Datenbanken, Vergleich, relationale Datenbanken\"}",
+      "tags": [
+        "Datenbanken",
+        "MySQL",
+        "PostgreSQL",
+        "Technologie",
+        "Vergleich"
+      ],
+      "cover": "assets/covers/datenbanken-mysql-vs-postgresql.svg"
     }
   ]
 }
