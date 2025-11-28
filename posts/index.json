@@ -510,6 +510,20 @@
         "Vergleich"
       ],
       "cover": "assets/covers/datenbanken-mysql-vs-postgresql.svg"
+    },
+    {
+      "title": "WordPress Backups automatisieren in 10 Minuten",
+      "url": "posts/2025-11-28-wordpress-backups-automatisieren-in-10-minuten.html",
+      "date": "2025-11-28",
+      "excerpt": "{\"description\": \"Erfahren Sie, wie Sie in nur 10 Minuten automatische Backups für Ihre WordPress-Website einrichten können.\", \"keywords\": \"WordPress, Backups, automatisieren, Website, Sicherheit\"}",
+      "tags": [
+        "WordPress",
+        "Backups",
+        "Automatisierung",
+        "Sicherheit",
+        "Webentwicklung"
+      ],
+      "cover": "assets/covers/wordpress-backups-automatisieren-in-10-minuten.svg"
     }
   ]
 }
