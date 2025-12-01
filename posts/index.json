@@ -524,6 +524,20 @@
         "Webentwicklung"
       ],
       "cover": "assets/covers/wordpress-backups-automatisieren-in-10-minuten.svg"
+    },
+    {
+      "title": "Performance-Basics: Caching verstehen",
+      "url": "posts/2025-12-01-performance-basics-caching-verstehen.html",
+      "date": "2025-12-01",
+      "excerpt": "{\"description\": \"Ein Überblick über die Grundlagen des Cachings und seine Bedeutung für die Performance von Webanwendungen.\", \"keywords\": \"Caching, Performance, Webanwendungen, Grundlagen, Technik\"}",
+      "tags": [
+        "Caching",
+        "Performance",
+        "Webentwicklung",
+        "Technik",
+        "Optimierung"
+      ],
+      "cover": "assets/covers/performance-basics-caching-verstehen.svg"
     }
   ]
 }
