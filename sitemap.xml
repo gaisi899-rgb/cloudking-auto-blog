@@ -2,25 +2,25 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
   <url>
     <loc>https://gaisi899-rgb.github.io/cloudking-auto-blog/</loc>
-    <lastmod>2025-12-01</lastmod>
+    <lastmod>2025-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://gaisi899-rgb.github.io/cloudking-auto-blog/blog.html</loc>
-    <lastmod>2025-12-01</lastmod>
+    <lastmod>2025-12-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://gaisi899-rgb.github.io/cloudking-auto-blog/impressum.html</loc>
-    <lastmod>2025-12-01</lastmod>
+    <lastmod>2025-12-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://gaisi899-rgb.github.io/cloudking-auto-blog/datenschutz.html</loc>
-    <lastmod>2025-12-01</lastmod>
+    <lastmod>2025-12-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -249,6 +249,12 @@
   <url>
     <loc>https://gaisi899-rgb.github.io/cloudking-auto-blog/posts/2025-12-01-performance-basics-caching-verstehen.html</loc>
     <lastmod>2025-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaisi899-rgb.github.io/cloudking-auto-blog/posts/2025-12-03-domains-clever-waehlen-seo-und-endungen.html</loc>
+    <lastmod>2025-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

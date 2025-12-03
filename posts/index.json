@@ -538,6 +538,20 @@
         "Optimierung"
       ],
       "cover": "assets/covers/performance-basics-caching-verstehen.svg"
+    },
+    {
+      "title": "Domains clever wählen: SEO und Endungen",
+      "url": "posts/2025-12-03-domains-clever-waehlen-seo-und-endungen.html",
+      "date": "2025-12-03",
+      "excerpt": "Ein Leitfaden zur Auswahl der besten Domain für SEO und die Bedeutung von Domain-Endungen.",
+      "tags": [
+        "Domains",
+        "SEO",
+        "Domain-Endungen",
+        "Webentwicklung",
+        "Suchmaschinenoptimierung"
+      ],
+      "cover": "assets/covers/domains-clever-waehlen-seo-und-endungen.svg"
     }
   ]
 }
