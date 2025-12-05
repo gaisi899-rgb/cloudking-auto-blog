@@ -552,6 +552,20 @@
         "Suchmaschinenoptimierung"
       ],
       "cover": "assets/covers/domains-clever-waehlen-seo-und-endungen.svg"
+    },
+    {
+      "title": "Monitoring & Uptime: Tools für kleine Sites",
+      "url": "posts/2025-12-05-monitoring-uptime-tools-fuer-kleine-sites.html",
+      "date": "2025-12-05",
+      "excerpt": "{\"description\": \"Entdecken Sie effektive Monitoring- und Uptime-Tools für kleine Websites, um deren Verfügbarkeit und Leistung zu gewährleisten.\", \"keywords\": \"Monitoring, Uptime, Tools, kleine Websites, Verfügbarkeit, Leistung\"}",
+      "tags": [
+        "Monitoring",
+        "Uptime",
+        "Websites",
+        "Tools",
+        "Kleinunternehmer"
+      ],
+      "cover": "assets/covers/monitoring-uptime-tools-fuer-kleine-sites.svg"
     }
   ]
 }
