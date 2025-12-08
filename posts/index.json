@@ -566,6 +566,20 @@
         "Kleinunternehmer"
       ],
       "cover": "assets/covers/monitoring-uptime-tools-fuer-kleine-sites.svg"
+    },
+    {
+      "title": "Failover & Redundanz: Große Wirkung",
+      "url": "posts/2025-12-08-failover-redundanz-grosse-wirkung.html",
+      "date": "2025-12-08",
+      "excerpt": "{\"description\": \"Ein Überblick über die Bedeutung von Failover- und Redundanzsystemen in der IT-Infrastruktur.\", \"keywords\": \"Failover, Redundanz, IT-Infrastruktur, Verfügbarkeit, Datensicherheit\"}",
+      "tags": [
+        "Failover",
+        "Redundanz",
+        "IT-Sicherheit",
+        "Verfügbarkeit",
+        "Infrastruktur"
+      ],
+      "cover": "assets/covers/failover-redundanz-grosse-wirkung.svg"
     }
   ]
 }
