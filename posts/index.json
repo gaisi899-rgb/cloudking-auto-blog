@@ -653,6 +653,21 @@
         "Budgetmanagement"
       ],
       "cover": "assets/covers/kostenoptimierung-von-50-eur-auf-15-eur-pro-monat.svg"
+    },
+    {
+      "title": "Datenbanken: MySQL vs. PostgreSQL",
+      "url": "posts/2025-12-22-datenbanken-mysql-vs-postgresql.html",
+      "date": "2025-12-22",
+      "excerpt": "{\"description\": \"Ein Vergleich der beiden populärsten relationalen Datenbanken, MySQL und PostgreSQL, hinsichtlich Leistung, Funktionen und Anwendungsbereichen.\", \"keywords\": \"MySQL, PostgreSQL, Datenbanken, relational, Vergleich, Performance\"}",
+      "tags": [
+        "Datenbanken",
+        "MySQL",
+        "PostgreSQL",
+        "Vergleich",
+        "Performance",
+        "SQL"
+      ],
+      "cover": "assets/covers/datenbanken-mysql-vs-postgresql.svg"
     }
   ]
 }
