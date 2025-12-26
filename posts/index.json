@@ -682,6 +682,20 @@
         "Sicherheit"
       ],
       "cover": "assets/covers/wordpress-backups-automatisieren-in-10-minuten.svg"
+    },
+    {
+      "title": "E-Mail-Hosting: Mailserver vs. Anbieter - Vor- und Nachteile",
+      "url": "posts/2025-12-26-e-mail-hosting-mailserver-vs-anbieter-vor-und-nachteile.html",
+      "date": "2025-12-26",
+      "excerpt": "{\"description\": \"Ein Vergleich zwischen selbstgehosteten Mailservern und E-Mail-Hosting-Anbietern, einschließlich Vor- und Nachteilen.\", \"keywords\": \"E-Mail-Hosting, Mailserver, Anbieter, Vor- und Nachteile, E-Mail-Dienste\"}",
+      "tags": [
+        "E-Mail",
+        "Hosting",
+        "Mailserver",
+        "Anbieter",
+        "Vergleich"
+      ],
+      "cover": "assets/covers/e-mail-hosting-mailserver-vs-anbieter-vor-und-nachteile.svg"
     }
   ]
 }
