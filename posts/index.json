@@ -696,6 +696,21 @@
         "Vergleich"
       ],
       "cover": "assets/covers/e-mail-hosting-mailserver-vs-anbieter-vor-und-nachteile.svg"
+    },
+    {
+      "title": "Shared Hosting vs. VPS vs. Cloud - Welcher Tarif passt für wen?",
+      "url": "posts/2025-12-29-shared-hosting-vs-vps-vs-cloud-welcher-tarif-passt-fuer-wen.html",
+      "date": "2025-12-29",
+      "excerpt": "{\"description\": \"Ein Vergleich der drei gängigsten Hosting-Optionen: Shared Hosting, VPS und Cloud. Erfahren Sie, welcher Tarif am besten zu Ihren Bedürfnissen passt.\", \"keywords\": \"Shared Hosting, VPS, Cloud Hosting, Webhosting, Tarifvergleich\"}",
+      "tags": [
+        "Hosting",
+        "Webhosting",
+        "Shared Hosting",
+        "VPS",
+        "Cloud",
+        "Tarifvergleich"
+      ],
+      "cover": "assets/covers/shared-hosting-vs-vps-vs-cloud-welcher-tarif-passt-fuer-wen.svg"
     }
   ]
 }
