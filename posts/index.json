@@ -725,6 +725,20 @@
         "Optimierung"
       ],
       "cover": "assets/covers/cdn-erklaert-bilder-und-assets-schnell-ausliefern.svg"
+    },
+    {
+      "title": "E-Mail-Hosting: Mailserver vs. Anbieter - Vor- und Nachteile",
+      "url": "posts/2026-01-02-e-mail-hosting-mailserver-vs-anbieter-vor-und-nachteile.html",
+      "date": "2026-01-02",
+      "excerpt": "{\"description\": \"Ein umfassender Vergleich zwischen selbstgehosteten Mailservern und E-Mail-Anbietern. Erfahren Sie die Vor- und Nachteile jeder Option.\", \"keywords\": \"E-Mail-Hosting, Mailserver, E-Mail-Anbieter, Vor- und Nachteile, selbstgehostet\"}",
+      "tags": [
+        "E-Mail-Hosting",
+        "Mailserver",
+        "E-Mail-Anbieter",
+        "Vergleich",
+        "IT-Infrastruktur"
+      ],
+      "cover": "assets/covers/e-mail-hosting-mailserver-vs-anbieter-vor-und-nachteile.svg"
     }
   ]
 }
