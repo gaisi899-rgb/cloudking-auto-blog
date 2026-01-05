@@ -739,6 +739,20 @@
         "IT-Infrastruktur"
       ],
       "cover": "assets/covers/e-mail-hosting-mailserver-vs-anbieter-vor-und-nachteile.svg"
+    },
+    {
+      "title": "Domains clever wählen: SEO und Endungen",
+      "url": "posts/2026-01-05-domains-clever-waehlen-seo-und-endungen.html",
+      "date": "2026-01-05",
+      "excerpt": "{\"description\": \"Erfahren Sie, wie Sie die richtige Domain für Ihre Website wählen, um SEO zu optimieren und die passenden Endungen zu nutzen.\", \"keywords\": \"Domains, SEO, Domain-Endungen, Web-Optimierung, Suchmaschinenoptimierung\"}",
+      "tags": [
+        "Domains",
+        "SEO",
+        "Web-Optimierung",
+        "Domain-Endungen",
+        "Suchmaschinenoptimierung"
+      ],
+      "cover": "assets/covers/domains-clever-waehlen-seo-und-endungen.svg"
     }
   ]
 }
