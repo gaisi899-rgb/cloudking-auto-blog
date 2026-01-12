@@ -783,6 +783,21 @@
         "E-Mail-Sicherheit"
       ],
       "cover": "assets/covers/e-mail-zustellbarkeit-spf-dkim-dmarc.svg"
+    },
+    {
+      "title": "Shared Hosting vs. VPS vs. Cloud: Welcher Tarif passt für wen?",
+      "url": "posts/2026-01-12-shared-hosting-vs-vps-vs-cloud-welcher-tarif-passt-fuer-wen.html",
+      "date": "2026-01-12",
+      "excerpt": "Ein Vergleich der verschiedenen Hosting-Optionen: Shared Hosting, VPS und Cloud-Hosting. Erfahren Sie, welcher Tarif für Ihre Bedürfnisse am besten geeignet ist.",
+      "tags": [
+        "Hosting",
+        "Shared Hosting",
+        "VPS",
+        "Cloud Hosting",
+        "Webhosting",
+        "Vergleich"
+      ],
+      "cover": "assets/covers/shared-hosting-vs-vps-vs-cloud-welcher-tarif-passt-fuer-wen.svg"
     }
   ]
 }
