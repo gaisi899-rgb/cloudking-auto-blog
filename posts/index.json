@@ -827,6 +827,20 @@
         "Webentwicklung"
       ],
       "cover": "assets/covers/website-umzug-zero-downtime-migration-schritt-fuer-schritt.svg"
+    },
+    {
+      "title": "VPN: Nutzen, Grenzen und worauf achten",
+      "url": "posts/2026-01-19-vpn-nutzen-grenzen-und-worauf-achten.html",
+      "date": "2026-01-19",
+      "excerpt": "{\"description\": \"Ein umfassender Überblick über die Vorteile und Einschränkungen von VPNs sowie wichtige Aspekte, die bei der Auswahl eines VPN-Dienstes zu beachten sind.\", \"author\": \"Tech-Redakteur\", \"date\": \"2023-10-01\"}",
+      "tags": [
+        "VPN",
+        "Datenschutz",
+        "Internet-Sicherheit",
+        "Technologie",
+        "Privatsphäre"
+      ],
+      "cover": "assets/covers/vpn-nutzen-grenzen-und-worauf-achten.svg"
     }
   ]
 }
