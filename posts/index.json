@@ -854,6 +854,21 @@
         "Budgetmanagement"
       ],
       "cover": "assets/covers/kostenoptimierung-von-50-eur-auf-15-eur-pro-monat.svg"
+    },
+    {
+      "title": "Static vs. Headless CMS: Ein Vergleich",
+      "url": "posts/2026-01-23-static-vs-headless-cms.html",
+      "date": "2026-01-23",
+      "excerpt": "{\"description\": \"Ein umfassender Vergleich zwischen statischen und headless Content-Management-Systemen. Erfahren Sie die Vor- und Nachteile beider Ansätze.\", \"keywords\": \"Static CMS, Headless CMS, Content-Management-Systeme, Webentwicklung, Vor- und Nachteile\"}",
+      "tags": [
+        "CMS",
+        "Webentwicklung",
+        "Content-Management",
+        "Technologie",
+        "Static CMS",
+        "Headless CMS"
+      ],
+      "cover": "assets/covers/static-vs-headless-cms.svg"
     }
   ]
 }
