@@ -883,6 +883,20 @@
         "Datenverlust"
       ],
       "cover": "assets/covers/wordpress-backups-automatisieren-in-10-minuten.svg"
+    },
+    {
+      "title": "E-Mail-Hosting: Mailserver vs. Anbieter - Vor- und Nachteile",
+      "url": "posts/2026-01-28-e-mail-hosting-mailserver-vs-anbieter-vor-und-nachteile.html",
+      "date": "2026-01-28",
+      "excerpt": "Ein umfassender Vergleich zwischen dem Betrieb eines eigenen Mailservers und der Nutzung eines externen E-Mail-Anbieters.",
+      "tags": [
+        "E-Mail-Hosting",
+        "Mailserver",
+        "E-Mail-Anbieter",
+        "Vor- und Nachteile",
+        "IT-Infrastruktur"
+      ],
+      "cover": "assets/covers/e-mail-hosting-mailserver-vs-anbieter-vor-und-nachteile.svg"
     }
   ]
 }
