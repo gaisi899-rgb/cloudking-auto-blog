@@ -897,6 +897,20 @@
         "IT-Infrastruktur"
       ],
       "cover": "assets/covers/e-mail-hosting-mailserver-vs-anbieter-vor-und-nachteile.svg"
+    },
+    {
+      "title": "Performance-Basics: Caching verstehen",
+      "url": "posts/2026-01-30-performance-basics-caching-verstehen.html",
+      "date": "2026-01-30",
+      "excerpt": "{\"description\": \"Ein umfassender Leitfaden zu den Grundlagen des Cachings und dessen Bedeutung für die Webperformance.\", \"keywords\": \"Caching, Performance, Webentwicklung, Ladezeiten, Optimierung\"}",
+      "tags": [
+        "Caching",
+        "Performance",
+        "Webentwicklung",
+        "Optimierung",
+        "Ladezeiten"
+      ],
+      "cover": "assets/covers/performance-basics-caching-verstehen.svg"
     }
   ]
 }
