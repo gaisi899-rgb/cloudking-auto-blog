@@ -911,6 +911,20 @@
         "Ladezeiten"
       ],
       "cover": "assets/covers/performance-basics-caching-verstehen.svg"
+    },
+    {
+      "title": "VPN: Nutzen, Grenzen und worauf achten",
+      "url": "posts/2026-02-02-vpn-nutzen-grenzen-und-worauf-achten.html",
+      "date": "2026-02-02",
+      "excerpt": "{\"description\": \"Ein umfassender Leitfaden über die Vorteile und Einschränkungen von VPNs sowie wichtige Aspekte, die bei der Nutzung zu beachten sind.\", \"keywords\": \"VPN, Nutzen, Grenzen, Datensicherheit, Anonymität, Internetzugang\"}",
+      "tags": [
+        "VPN",
+        "Datensicherheit",
+        "Anonymität",
+        "Internet",
+        "Netzwerksicherheit"
+      ],
+      "cover": "assets/covers/vpn-nutzen-grenzen-und-worauf-achten.svg"
     }
   ]
 }
