@@ -925,6 +925,20 @@
         "Netzwerksicherheit"
       ],
       "cover": "assets/covers/vpn-nutzen-grenzen-und-worauf-achten.svg"
+    },
+    {
+      "title": "Kostenoptimierung: Von 50 EUR auf 15 EUR pro Monat",
+      "url": "posts/2026-02-04-kostenoptimierung-von-50-eur-auf-15-eur-pro-monat.html",
+      "date": "2026-02-04",
+      "excerpt": "{\"description\": \"Erfahren Sie, wie Sie Ihre monatlichen Ausgaben von 50 EUR auf 15 EUR reduzieren können. Praktische Tipps und Strategien zur Kostenoptimierung.\", \"keywords\": \"Kostenoptimierung, Einsparungen, Budgetmanagement, finanzielle Freiheit\"}",
+      "tags": [
+        "Kostenoptimierung",
+        "Einsparungen",
+        "Budgetmanagement",
+        "finanzielle Freiheit",
+        "Monatliche Ausgaben"
+      ],
+      "cover": "assets/covers/kostenoptimierung-von-50-eur-auf-15-eur-pro-monat.svg"
     }
   ]
 }
