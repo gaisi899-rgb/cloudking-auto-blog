@@ -995,6 +995,20 @@
         "Optimierung"
       ],
       "cover": "assets/covers/performance-basics-caching-verstehen.svg"
+    },
+    {
+      "title": "Monitoring & Uptime: Tools für kleine Sites",
+      "url": "posts/2026-02-16-monitoring-uptime-tools-fuer-kleine-sites.html",
+      "date": "2026-02-16",
+      "excerpt": "{\"description\": \"Entdecken Sie effektive Monitoring- und Uptime-Tools für kleine Websites, um Ausfallzeiten zu minimieren und die Leistung zu optimieren.\", \"keywords\": \"Monitoring, Uptime, Tools, kleine Websites, Ausfallzeiten, Leistung\"}",
+      "tags": [
+        "Monitoring",
+        "Uptime",
+        "Websites",
+        "Tools",
+        "Kleinunternehmen"
+      ],
+      "cover": "assets/covers/monitoring-uptime-tools-fuer-kleine-sites.svg"
     }
   ]
 }
