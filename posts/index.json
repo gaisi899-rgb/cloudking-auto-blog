@@ -1024,6 +1024,20 @@
         "Sicherheit"
       ],
       "cover": "assets/covers/e-mail-zustellbarkeit-spf-dkim-dmarc.svg"
+    },
+    {
+      "title": "Failover & Redundanz: Große Wirkung",
+      "url": "posts/2026-02-20-failover-redundanz-grosse-wirkung.html",
+      "date": "2026-02-20",
+      "excerpt": "{\"description\": \"Ein umfassender Überblick über die Bedeutung von Failover- und Redundanzstrategien in der IT-Infrastruktur.\", \"keywords\": \"Failover, Redundanz, IT-Infrastruktur, Hochverfügbarkeit, Datensicherheit\"}",
+      "tags": [
+        "Failover",
+        "Redundanz",
+        "IT-Infrastruktur",
+        "Hochverfügbarkeit",
+        "Datensicherheit"
+      ],
+      "cover": "assets/covers/failover-redundanz-grosse-wirkung.svg"
     }
   ]
 }
