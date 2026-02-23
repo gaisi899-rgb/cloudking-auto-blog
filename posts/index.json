@@ -1038,6 +1038,20 @@
         "Datensicherheit"
       ],
       "cover": "assets/covers/failover-redundanz-grosse-wirkung.svg"
+    },
+    {
+      "title": "CDN erklärt: Bilder und Assets schnell ausliefern",
+      "url": "posts/2026-02-23-cdn-erklaert-bilder-und-assets-schnell-ausliefern.html",
+      "date": "2026-02-23",
+      "excerpt": "{\"description\": \"Erfahren Sie, wie Content Delivery Networks (CDNs) die Auslieferung von Bildern und anderen Assets optimieren und beschleunigen.\", \"keywords\": \"CDN, Content Delivery Network, Bilder, Assets, Auslieferung, Web-Performance\"}",
+      "tags": [
+        "CDN",
+        "Web-Performance",
+        "Bilder",
+        "Assets",
+        "Netzwerktechnologie"
+      ],
+      "cover": "assets/covers/cdn-erklaert-bilder-und-assets-schnell-ausliefern.svg"
     }
   ]
 }
