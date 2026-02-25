@@ -1052,6 +1052,21 @@
         "Netzwerktechnologie"
       ],
       "cover": "assets/covers/cdn-erklaert-bilder-und-assets-schnell-ausliefern.svg"
+    },
+    {
+      "title": "Website-Umzug: Zero-Downtime-Migration Schritt für Schritt",
+      "url": "posts/2026-02-25-website-umzug-zero-downtime-migration-schritt-fuer-schritt.html",
+      "date": "2026-02-25",
+      "excerpt": "{\"description\": \"Eine umfassende Anleitung zur Durchführung einer Zero-Downtime-Migration für Ihre Website, um Ausfallzeiten zu vermeiden und den Umzug reibungslos zu gestalten.\", \"keywords\": \"Website-Umzug, Zero-Downtime-Migration, Schritt für Schritt, Webhosting, Datenmigration\"}",
+      "tags": [
+        "Website-Umzug",
+        "Zero-Downtime",
+        "Migration",
+        "Webhosting",
+        "Datenmigration",
+        "IT-Management"
+      ],
+      "cover": "assets/covers/website-umzug-zero-downtime-migration-schritt-fuer-schritt.svg"
     }
   ]
 }
