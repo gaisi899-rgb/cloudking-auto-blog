@@ -1096,6 +1096,20 @@
         "statisch"
       ],
       "cover": "assets/covers/static-vs-headless-cms.svg"
+    },
+    {
+      "title": "Datenbanken: MySQL vs. PostgreSQL",
+      "url": "posts/2026-03-04-datenbanken-mysql-vs-postgresql.html",
+      "date": "2026-03-04",
+      "excerpt": "{\"description\": \"Ein Vergleich zwischen MySQL und PostgreSQL, zwei der beliebtesten relationalen Datenbankmanagementsysteme.\", \"keywords\": \"MySQL, PostgreSQL, Datenbanken, Vergleich, relationale Datenbanken\"}",
+      "tags": [
+        "Datenbanken",
+        "MySQL",
+        "PostgreSQL",
+        "Technologie",
+        "Vergleich"
+      ],
+      "cover": "assets/covers/datenbanken-mysql-vs-postgresql.svg"
     }
   ]
 }
