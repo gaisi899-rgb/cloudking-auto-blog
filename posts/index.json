@@ -1124,6 +1124,19 @@
         "Datenverlust"
       ],
       "cover": "assets/covers/wordpress-backups-automatisieren-in-10-minuten.svg"
+    },
+    {
+      "title": "Performance-Basics: Caching verstehen",
+      "url": "posts/2026-03-09-performance-basics-caching-verstehen.html",
+      "date": "2026-03-09",
+      "excerpt": "{\"description\": \"Ein umfassender Überblick über die Grundlagen des Cachings und dessen Bedeutung für die Web-Performance.\", \"author\": \"Tech-Redakteur\", \"date\": \"2023-10-01\"}",
+      "tags": [
+        "Caching",
+        "Web-Performance",
+        "Technologie",
+        "Optimierung"
+      ],
+      "cover": "assets/covers/performance-basics-caching-verstehen.svg"
     }
   ]
 }
