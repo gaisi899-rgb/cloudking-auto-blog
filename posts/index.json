@@ -1137,6 +1137,20 @@
         "Optimierung"
       ],
       "cover": "assets/covers/performance-basics-caching-verstehen.svg"
+    },
+    {
+      "title": "Clever Domains wählen: SEO und Endungen",
+      "url": "posts/2026-03-11-domains-clever-waehlen-seo-und-endungen.html",
+      "date": "2026-03-11",
+      "excerpt": "{\"description\": \"Erfahren Sie, wie Sie beim Kauf von Domains die richtigen Endungen wählen und SEO-Aspekte berücksichtigen, um Ihre Online-Präsenz zu stärken.\", \"keywords\": \"Domains, SEO, Domain-Endungen, Online-Marketing, Suchmaschinenoptimierung\"}",
+      "tags": [
+        "Domains",
+        "SEO",
+        "Domain-Endungen",
+        "Suchmaschinenoptimierung",
+        "Online-Marketing"
+      ],
+      "cover": "assets/covers/domains-clever-waehlen-seo-und-endungen.svg"
     }
   ]
 }
