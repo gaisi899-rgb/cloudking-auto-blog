@@ -1151,6 +1151,20 @@
         "Online-Marketing"
       ],
       "cover": "assets/covers/domains-clever-waehlen-seo-und-endungen.svg"
+    },
+    {
+      "title": "Monitoring & Uptime: Tools für kleine Sites",
+      "url": "posts/2026-03-13-monitoring-uptime-tools-fuer-kleine-sites.html",
+      "date": "2026-03-13",
+      "excerpt": "{\"description\": \"Entdecken Sie die besten Monitoring- und Uptime-Tools für kleine Websites, um die Verfügbarkeit und Leistung Ihrer Online-Präsenz zu gewährleisten.\", \"keywords\": \"Monitoring, Uptime, Tools, kleine Websites, Verfügbarkeit, Leistung\"}",
+      "tags": [
+        "Monitoring",
+        "Uptime",
+        "Webtools",
+        "Kleine Websites",
+        "Performance"
+      ],
+      "cover": "assets/covers/monitoring-uptime-tools-fuer-kleine-sites.svg"
     }
   ]
 }
