@@ -1192,6 +1192,20 @@
         "Tarifvergleich"
       ],
       "cover": "assets/covers/shared-hosting-vs-vps-vs-cloud-welcher-tarif-passt-fuer-wen.svg"
+    },
+    {
+      "title": "CDN erklärt: Bilder und Assets schnell ausliefern",
+      "url": "posts/2026-03-20-cdn-erklaert-bilder-und-assets-schnell-ausliefern.html",
+      "date": "2026-03-20",
+      "excerpt": "{\"description\": \"Erfahren Sie, wie ein Content Delivery Network (CDN) funktioniert und wie es die Auslieferung von Bildern und anderen Assets optimiert.\", \"author\": \"Tech-Redakteur\", \"date\": \"2023-10-01\"}",
+      "tags": [
+        "CDN",
+        "Content Delivery Network",
+        "Web-Performance",
+        "Bilder",
+        "Assets"
+      ],
+      "cover": "assets/covers/cdn-erklaert-bilder-und-assets-schnell-ausliefern.svg"
     }
   ]
 }
