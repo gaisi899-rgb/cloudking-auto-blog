@@ -1236,6 +1236,19 @@
         "Netzwerktechnologie"
       ],
       "cover": "assets/covers/vpn-nutzen-grenzen-und-worauf-achten.svg"
+    },
+    {
+      "title": "Kostenoptimierung: Von 50 EUR auf 15 EUR pro Monat",
+      "url": "posts/2026-03-27-kostenoptimierung-von-50-eur-auf-15-eur-pro-monat.html",
+      "date": "2026-03-27",
+      "excerpt": "{\"description\": \"Ein Leitfaden zur effizienten Kostenoptimierung, der zeigt, wie Unternehmen ihre monatlichen Ausgaben von 50 EUR auf 15 EUR senken können.\", \"author\": \"Tech-Redakteur\", \"date\": \"2023-10-01\"}",
+      "tags": [
+        "Kostenoptimierung",
+        "Einsparungen",
+        "Finanzen",
+        "Unternehmensführung"
+      ],
+      "cover": "assets/covers/kostenoptimierung-von-50-eur-auf-15-eur-pro-monat.svg"
     }
   ]
 }
