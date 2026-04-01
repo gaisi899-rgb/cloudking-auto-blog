@@ -1263,6 +1263,21 @@
         "RDBMS"
       ],
       "cover": "assets/covers/datenbanken-mysql-vs-postgresql.svg"
+    },
+    {
+      "title": "Shared Hosting vs. VPS vs. Cloud - Welcher Tarif passt für wen?",
+      "url": "posts/2026-04-01-shared-hosting-vs-vps-vs-cloud-welcher-tarif-passt-fuer-wen.html",
+      "date": "2026-04-01",
+      "excerpt": "{\"description\": \"Ein Vergleich der drei gängigsten Hosting-Optionen: Shared Hosting, VPS und Cloud. Erfahren Sie, welche Lösung am besten zu Ihren Bedürfnissen passt.\", \"keywords\": \"Shared Hosting, VPS, Cloud, Webhosting, Vergleich, Tarif, Hosting-Optionen\"}",
+      "tags": [
+        "Webhosting",
+        "Shared Hosting",
+        "VPS",
+        "Cloud Hosting",
+        "Vergleich",
+        "Technologie"
+      ],
+      "cover": "assets/covers/shared-hosting-vs-vps-vs-cloud-welcher-tarif-passt-fuer-wen.svg"
     }
   ]
 }
