@@ -1534,6 +1534,20 @@
         "E-Mail-Dienste"
       ],
       "cover": "assets/covers/e-mail-hosting-mailserver-vs-anbieter-vor-und-nachteile.svg"
+    },
+    {
+      "title": "Performance-Basics: Caching verstehen",
+      "url": "posts/2026-05-15-performance-basics-caching-verstehen.html",
+      "date": "2026-05-15",
+      "excerpt": "{\"description\": \"Ein umfassender Leitfaden zum Verständnis von Caching und dessen Einfluss auf die Web-Performance.\", \"author\": \"Tech-Redakteur\", \"date\": \"2023-10-01\"}",
+      "tags": [
+        "Caching",
+        "Web-Performance",
+        "Optimierung",
+        "Technologie",
+        "Entwicklung"
+      ],
+      "cover": "assets/covers/performance-basics-caching-verstehen.svg"
     }
   ]
 }
