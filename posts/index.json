@@ -1651,6 +1651,22 @@
         "Performance"
       ],
       "cover": "assets/covers/monitoring-uptime-tools-fuer-kleine-sites.svg"
+    },
+    {
+      "title": "E-Mail-Zustellbarkeit: SPF, DKIM und DMARC verstehen",
+      "url": "posts/2026-06-03-e-mail-zustellbarkeit-spf-dkim-dmarc.html",
+      "date": "2026-06-03",
+      "excerpt": "{\"description\": \"Ein umfassender Leitfaden zur Verbesserung der E-Mail-Zustellbarkeit durch SPF, DKIM und DMARC.\", \"keywords\": \"E-Mail-Zustellbarkeit, SPF, DKIM, DMARC, E-Mail-Sicherheit, Authentifizierung\"}",
+      "tags": [
+        "E-Mail",
+        "Zustellbarkeit",
+        "SPF",
+        "DKIM",
+        "DMARC",
+        "Sicherheit",
+        "Authentifizierung"
+      ],
+      "cover": "assets/covers/e-mail-zustellbarkeit-spf-dkim-dmarc.svg"
     }
   ]
 }
