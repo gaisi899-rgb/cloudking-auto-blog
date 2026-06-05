@@ -1667,6 +1667,20 @@
         "Authentifizierung"
       ],
       "cover": "assets/covers/e-mail-zustellbarkeit-spf-dkim-dmarc.svg"
+    },
+    {
+      "title": "Failover & Redundanz: Große Wirkung",
+      "url": "posts/2026-06-05-failover-redundanz-grosse-wirkung.html",
+      "date": "2026-06-05",
+      "excerpt": "{\"description\": \"Dieser Artikel behandelt die Bedeutung von Failover- und Redundanzsystemen in der IT-Infrastruktur, um Ausfallzeiten zu minimieren und die Verfügbarkeit von Diensten zu gewährleisten.\", \"author\": \"Tech-Redakteur\", \"date\": \"2023-10-10\"}",
+      "tags": [
+        "IT-Infrastruktur",
+        "Failover",
+        "Redundanz",
+        "Verfügbarkeit",
+        "Ausfallsicherheit"
+      ],
+      "cover": "assets/covers/failover-redundanz-grosse-wirkung.svg"
     }
   ]
 }
