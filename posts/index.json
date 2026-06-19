@@ -1751,6 +1751,20 @@
         "Vergleich"
       ],
       "cover": "assets/covers/static-vs-headless-cms.svg"
+    },
+    {
+      "title": "MySQL vs. PostgreSQL: Ein Vergleich der beiden führenden Datenbanken",
+      "url": "posts/2026-06-19-datenbanken-mysql-vs-postgresql.html",
+      "date": "2026-06-19",
+      "excerpt": "In diesem Artikel vergleichen wir MySQL und PostgreSQL, zwei der beliebtesten relationalen Datenbanksysteme, hinsichtlich ihrer Funktionen, Leistung und Anwendungsfälle.",
+      "tags": [
+        "Datenbanken",
+        "MySQL",
+        "PostgreSQL",
+        "Vergleich",
+        "Relationale Datenbanken"
+      ],
+      "cover": "assets/covers/datenbanken-mysql-vs-postgresql.svg"
     }
   ]
 }
