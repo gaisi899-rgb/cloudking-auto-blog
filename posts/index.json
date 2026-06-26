@@ -1793,6 +1793,20 @@
         "HTTP"
       ],
       "cover": "assets/covers/performance-basics-caching-verstehen.svg"
+    },
+    {
+      "title": "Domains clever wählen: SEO und Endungen",
+      "url": "posts/2026-06-26-domains-clever-waehlen-seo-und-endungen.html",
+      "date": "2026-06-26",
+      "excerpt": "{\"description\": \"Erfahren Sie, wie Sie die richtige Domain für Ihre Webseite auswählen und welche Endungen für SEO wichtig sind.\", \"keywords\": \"Domainwahl, SEO, Domainendungen, Webadresse, Suchmaschinenoptimierung\"}",
+      "tags": [
+        "Domain",
+        "SEO",
+        "Webentwicklung",
+        "Suchmaschinenoptimierung",
+        "Domainendungen"
+      ],
+      "cover": "assets/covers/domains-clever-waehlen-seo-und-endungen.svg"
     }
   ]
 }
