@@ -1895,6 +1895,20 @@
         "Netzwerkschutz"
       ],
       "cover": "assets/covers/vpn-nutzen-grenzen-und-worauf-achten.svg"
+    },
+    {
+      "title": "Static vs. Headless CMS: Ein Vergleich",
+      "url": "posts/2026-07-13-static-vs-headless-cms.html",
+      "date": "2026-07-13",
+      "excerpt": "{\"description\": \"Ein detaillierter Vergleich zwischen statischen und headless Content Management Systemen. Erfahren Sie die Vor- und Nachteile beider Ansätze.\", \"author\": \"Tech-Redakteur\", \"date\": \"2023-10-01\"}",
+      "tags": [
+        "CMS",
+        "Webentwicklung",
+        "Statische Websites",
+        "Headless CMS",
+        "Content Management"
+      ],
+      "cover": "assets/covers/static-vs-headless-cms.svg"
     }
   ]
 }
