@@ -1909,6 +1909,21 @@
         "Content Management"
       ],
       "cover": "assets/covers/static-vs-headless-cms.svg"
+    },
+    {
+      "title": "MySQL vs. PostgreSQL: Ein Vergleich der beiden führenden Datenbanken",
+      "url": "posts/2026-07-15-datenbanken-mysql-vs-postgresql.html",
+      "date": "2026-07-15",
+      "excerpt": "{\"description\": \"Ein detaillierter Vergleich zwischen MySQL und PostgreSQL, zwei der populärsten relationalen Datenbanken, hinsichtlich Leistung, Funktionen und Einsatzmöglichkeiten.\", \"keywords\": \"MySQL, PostgreSQL, Datenbanken, Vergleich, relationale Datenbanken, SQL\"}",
+      "tags": [
+        "MySQL",
+        "PostgreSQL",
+        "Datenbanken",
+        "Relationale Datenbanken",
+        "SQL",
+        "Technologie"
+      ],
+      "cover": "assets/covers/datenbanken-mysql-vs-postgresql.svg"
     }
   ]
 }
