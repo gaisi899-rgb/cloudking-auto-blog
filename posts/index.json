@@ -1924,6 +1924,20 @@
         "Technologie"
       ],
       "cover": "assets/covers/datenbanken-mysql-vs-postgresql.svg"
+    },
+    {
+      "title": "WordPress Backups automatisieren in 10 Minuten",
+      "url": "posts/2026-07-17-wordpress-backups-automatisieren-in-10-minuten.html",
+      "date": "2026-07-17",
+      "excerpt": "{\"description\": \"Erfahren Sie, wie Sie in nur 10 Minuten automatisierte Backups für Ihre WordPress-Website einrichten können, um Datenverlust zu vermeiden.\", \"keywords\": \"WordPress, Backups, automatisieren, Datenverlust, Website-Sicherheit\"}",
+      "tags": [
+        "WordPress",
+        "Backups",
+        "Automatisierung",
+        "Website-Sicherheit",
+        "Datenverlust"
+      ],
+      "cover": "assets/covers/wordpress-backups-automatisieren-in-10-minuten.svg"
     }
   ]
 }
