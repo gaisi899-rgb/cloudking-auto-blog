@@ -1979,6 +1979,20 @@
         "Performance"
       ],
       "cover": "assets/covers/monitoring-uptime-tools-fuer-kleine-sites.svg"
+    },
+    {
+      "title": "Failover und Redundanz: Große Wirkung für Ihre IT-Infrastruktur",
+      "url": "posts/2026-07-27-failover-redundanz-grosse-wirkung.html",
+      "date": "2026-07-27",
+      "excerpt": "{\"description\": \"Erfahren Sie, wie Failover- und Redundanzlösungen die Verfügbarkeit und Zuverlässigkeit Ihrer IT-Systeme erhöhen können.\", \"keywords\": \"Failover, Redundanz, IT-Infrastruktur, Verfügbarkeit, Zuverlässigkeit\"}",
+      "tags": [
+        "Failover",
+        "Redundanz",
+        "IT-Infrastruktur",
+        "Verfügbarkeit",
+        "Zuverlässigkeit"
+      ],
+      "cover": "assets/covers/failover-redundanz-grosse-wirkung.svg"
     }
   ]
 }
