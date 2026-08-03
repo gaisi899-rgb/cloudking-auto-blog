@@ -1,0 +1,34 @@
+<!doctype html><html lang='de'><head><meta charset='utf-8'/>
+<meta name='viewport' content='width=device-width, initial-scale=1'/>
+<title>Performance-Basics: Caching verstehen</title><meta name='description' content='{"description": "Ein Überblick über die Grundlagen des Cachings, seine Bedeutung für die Web-Performance und verschiedene Cache-Strategien.", "keywords"…'/>
+<link rel='canonical' href='posts/2026-08-03-performance-basics-caching-verstehen.html'/><link rel='stylesheet' href='../assets/style.css'/></head>
+<body><div class='container'>
+<nav class='nav'><a class='logo' href='../index.html'><span class='badge'>Cloud</span>King</a>
+<div><a class='btn secondary' href='../blog.html'>Blog</a><a class='btn' href='mailto:info@handwerker-whv.de'>Kontakt</a></div></nav>
+<article class='card'>
+<figure><img src='../assets/covers/performance-basics-caching-verstehen.svg' alt='Performance-Basics: Caching verstehen' loading='lazy'/></figure><article>
+  <h1>Performance-Basics: Caching verstehen</h1>
+  <p>Caching ist eine zentrale Technik zur Verbesserung der Performance von Webanwendungen. Es reduziert die Ladezeiten und entlastet Server, indem häufig benötigte Daten temporär gespeichert werden.</p>
+  <h2>Was ist Caching?</h2>
+  <p>Beim Caching werden Daten, die häufig abgerufen werden, in einem schnell zugänglichen Speicher (Cache) abgelegt. Dies kann sowohl im Browser, auf dem Server oder in einem externen Cache-System geschehen.</p>
+  <h2>Warum ist Caching wichtig?</h2>
+  <p>Durch Caching können die Antwortzeiten erheblich verkürzt werden, was zu einer besseren Benutzererfahrung führt. Zudem wird die Belastung der Backend-Systeme verringert, was die Skalierbarkeit erhöht.</p>
+  <h2>Arten von Caching</h2>
+  <ul>
+    <li><strong>Browser-Caching:</strong> Speichert Ressourcen im Webbrowser des Nutzers.</li>
+    <li><strong>Server-Caching:</strong> Hält Daten auf dem Server vor, um wiederholte Datenbankabfragen zu vermeiden.</li>
+    <li><strong>CDN-Caching:</strong> Verwendet Content Delivery Networks, um Inhalte geografisch näher an den Nutzern zu speichern.</li>
+  </ul>
+  <h2>Cache-Strategien</h2>
+  <p>Es gibt verschiedene Strategien, um zu bestimmen, wann und wie Daten im Cache gespeichert werden. Zu den gängigsten zählen:</p>
+  <ul>
+    <li><strong>Cache-First:</strong> Überprüft zuerst den Cache, bevor eine Anfrage an die Datenquelle gesendet wird.</li>
+    <li><strong>Network-First:</strong> Zieht zunächst die Daten aus dem Netzwerk und verwendet den Cache nur bei Fehlern.</li>
+    <li><strong>Stale-While-Revalidate:</strong> Gibt zwischengespeicherte Daten aus, während im Hintergrund eine Aktualisierung erfolgt.</li>
+  </ul>
+  <h2>Fazit</h2>
+  <p>Caching ist ein unverzichtbares Werkzeug in der Web-Entwicklung. Durch das Verständnis und die Implementierung effektiver Cache-Strategien können Entwickler die Performance ihrer Anwendungen signifikant verbessern.</p>
+</article></article>
+<footer><hr/><div>© <span id='year'></span> CloudKing • Hosting & Cloud Tipps</div>
+<script>document.getElementById('year').textContent=new Date().getFullYear()</script></footer>
+</div></body></html>

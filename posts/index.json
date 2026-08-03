@@ -2022,6 +2022,20 @@
         "Ladezeiten"
       ],
       "cover": "assets/covers/cdn-erklaert-bilder-und-assets-schnell-ausliefern.svg"
+    },
+    {
+      "title": "Performance-Basics: Caching verstehen",
+      "url": "posts/2026-08-03-performance-basics-caching-verstehen.html",
+      "date": "2026-08-03",
+      "excerpt": "{\"description\": \"Ein Überblick über die Grundlagen des Cachings, seine Bedeutung für die Web-Performance und verschiedene Cache-Strategien.\", \"keywords\": \"Caching, Performance, Web-Entwicklung, Cache-Strategien, Datenbank-Optimierung\"}",
+      "tags": [
+        "Caching",
+        "Performance",
+        "Web-Entwicklung",
+        "Optimierung",
+        "Datenbanken"
+      ],
+      "cover": "assets/covers/performance-basics-caching-verstehen.svg"
     }
   ]
 }
