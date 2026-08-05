@@ -2036,6 +2036,20 @@
         "Datenbanken"
       ],
       "cover": "assets/covers/performance-basics-caching-verstehen.svg"
+    },
+    {
+      "title": "Domains clever wählen: SEO und Endungen",
+      "url": "posts/2026-08-05-domains-clever-waehlen-seo-und-endungen.html",
+      "date": "2026-08-05",
+      "excerpt": "{\"description\": \"Erfahren Sie, wie Sie beim Domain-Kauf strategisch vorgehen, um Ihre SEO-Rankings zu verbessern und die richtige Domain-Endung zu wählen.\", \"keywords\": \"Domains, SEO, Domain-Endungen, Domain-Wahl, Suchmaschinenoptimierung\"}",
+      "tags": [
+        "Domains",
+        "SEO",
+        "Webentwicklung",
+        "Suchmaschinenoptimierung",
+        "Domain-Endungen"
+      ],
+      "cover": "assets/covers/domains-clever-waehlen-seo-und-endungen.svg"
     }
   ]
 }
