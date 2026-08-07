@@ -2050,6 +2050,20 @@
         "Domain-Endungen"
       ],
       "cover": "assets/covers/domains-clever-waehlen-seo-und-endungen.svg"
+    },
+    {
+      "title": "Monitoring & Uptime: Tools für kleine Sites",
+      "url": "posts/2026-08-07-monitoring-uptime-tools-fuer-kleine-sites.html",
+      "date": "2026-08-07",
+      "excerpt": "Eine Übersicht über die besten Monitoring- und Uptime-Tools für kleine Webseiten.",
+      "tags": [
+        "Monitoring",
+        "Uptime",
+        "Tools",
+        "Webseiten",
+        "Kleinunternehmer"
+      ],
+      "cover": "assets/covers/monitoring-uptime-tools-fuer-kleine-sites.svg"
     }
   ]
 }
