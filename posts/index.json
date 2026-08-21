@@ -2136,6 +2136,19 @@
         "Anonymität"
       ],
       "cover": "assets/covers/vpn-nutzen-grenzen-und-worauf-achten.svg"
+    },
+    {
+      "title": "Kostenoptimierung: Von 50 EUR auf 15 EUR pro Monat",
+      "url": "posts/2026-08-21-kostenoptimierung-von-50-eur-auf-15-eur-pro-monat.html",
+      "date": "2026-08-21",
+      "excerpt": "{\"description\": \"Ein Leitfaden zur Kostenoptimierung, der zeigt, wie man monatliche Ausgaben von 50 EUR auf nur 15 EUR senken kann.\", \"author\": \"Tech-Redakteur\", \"date\": \"2023-10-01\"}",
+      "tags": [
+        "Kostenoptimierung",
+        "Einsparungen",
+        "Finanzen",
+        "Budgetierung"
+      ],
+      "cover": "assets/covers/kostenoptimierung-von-50-eur-auf-15-eur-pro-monat.svg"
     }
   ]
 }
