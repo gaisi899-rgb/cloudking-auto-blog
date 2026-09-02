@@ -2205,6 +2205,20 @@
         "Suchmaschinenoptimierung"
       ],
       "cover": "assets/covers/domains-clever-waehlen-seo-und-endungen.svg"
+    },
+    {
+      "title": "VPN: Nutzen, Grenzen und worauf achten",
+      "url": "posts/2026-09-02-vpn-nutzen-grenzen-und-worauf-achten.html",
+      "date": "2026-09-02",
+      "excerpt": "Ein umfassender Überblick über die Vorteile und Einschränkungen von VPNs sowie wichtige Aspekte, die bei der Nutzung zu beachten sind.",
+      "tags": [
+        "VPN",
+        "Datenschutz",
+        "Internetsicherheit",
+        "Anonymität",
+        "Netzwerk"
+      ],
+      "cover": "assets/covers/vpn-nutzen-grenzen-und-worauf-achten.svg"
     }
   ]
 }
