@@ -2275,6 +2275,20 @@
         "Cloud-Services"
       ],
       "cover": "assets/covers/e-mail-hosting-mailserver-vs-anbieter-vor-und-nachteile.svg"
+    },
+    {
+      "title": "Domains clever wählen: SEO und Endungen",
+      "url": "posts/2026-09-14-domains-clever-waehlen-seo-und-endungen.html",
+      "date": "2026-09-14",
+      "excerpt": "{\"description\": \"Erfahren Sie, wie Sie bei der Wahl Ihrer Domain die richtigen Endungen für eine bessere SEO-Performance auswählen können.\", \"keywords\": \"Domains, SEO, Domain-Endungen, Webadresse, Suchmaschinenoptimierung\"}",
+      "tags": [
+        "Domains",
+        "SEO",
+        "Webentwicklung",
+        "Suchmaschinenoptimierung",
+        "Domain-Endungen"
+      ],
+      "cover": "assets/covers/domains-clever-waehlen-seo-und-endungen.svg"
     }
   ]
 }
