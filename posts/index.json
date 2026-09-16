@@ -2289,6 +2289,21 @@
         "Domain-Endungen"
       ],
       "cover": "assets/covers/domains-clever-waehlen-seo-und-endungen.svg"
+    },
+    {
+      "title": "Monitoring & Uptime: Tools für kleine Sites",
+      "url": "posts/2026-09-16-monitoring-uptime-tools-fuer-kleine-sites.html",
+      "date": "2026-09-16",
+      "excerpt": "{\"description\": \"Entdecken Sie effektive Monitoring- und Uptime-Tools, die speziell für kleine Websites entwickelt wurden. Erfahren Sie, wie Sie die Verfügbarkeit Ihrer Seite überwachen können.\", \"keywords\": \"Monitoring, Uptime, Tools, kleine Websites, Verfügbarkeit, Website-Überwachung\"}",
+      "tags": [
+        "Monitoring",
+        "Uptime",
+        "Websites",
+        "Tools",
+        "Kleinunternehmer",
+        "Verfügbarkeit"
+      ],
+      "cover": "assets/covers/monitoring-uptime-tools-fuer-kleine-sites.svg"
     }
   ]
 }
