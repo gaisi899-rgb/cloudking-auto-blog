@@ -2375,6 +2375,19 @@
         "Online-Anonymität"
       ],
       "cover": "assets/covers/vpn-nutzen-grenzen-und-worauf-achten.svg"
+    },
+    {
+      "title": "Kostenoptimierung: Von 50 EUR auf 15 EUR pro Monat",
+      "url": "posts/2026-09-30-kostenoptimierung-von-50-eur-auf-15-eur-pro-monat.html",
+      "date": "2026-09-30",
+      "excerpt": "Ein Leitfaden zur effektiven Reduzierung monatlicher Ausgaben",
+      "tags": [
+        "Kostenoptimierung",
+        "Finanzen",
+        "Sparen",
+        "Budgetierung"
+      ],
+      "cover": "assets/covers/kostenoptimierung-von-50-eur-auf-15-eur-pro-monat.svg"
     }
   ]
 }
